@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html ng-app="accessibilityApp">
+    <head>
+        <title>Accessibility - Zone</title>
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" type="text/css">
+        <link rel="stylesheet" href="dist/styles/app.css" type="text/css">
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="apple-touch-icon" href="images/zone-logo.svg">
+        <link rel="apple-touch-icon" href="images/zone-logo.svg" sizes="72x72">
+        <link rel="apple-touch-icon" href="images/zone-logo.svg" sizes="114x114">
+    </head>
+    <body class="loading">
+        <div class="container">
+            <a href="http://thisiszone.com" class="app__logo"><img src="images/zone-logo.svg" alt="Zone" wisth="70" height="70"></a>
+            <div ng-controller="EntriesCtrl">
+                <h1 class="app__title">We care about <strong>Accessibility</strong></h1>
+
+                <div class="loader">Loading guide data...</div>
+
+                <div class="content" ng-cloak>
+                    <div class="form">
+                        <p><input type="text" placeholder="Looking for something?" ng-model="search.criteria"></p>
+                        <p><span class="select"><select ng-model="search.level">
+                            <option value="">Any level</option>
+                            <option ng-repeat="level in levels" value="{{level}}">{{level}}</option>
+                        </select></span><span class="select"><select ng-model="search.departments">
+                            <option value="">Any department</option>
+                            <option ng-repeat="department in departments" value="{{department}}">{{department}}</option>
+                        </select></span></p>
+                    </div>
+
+                    <!-- <p class="count" ng-show="totalItems">{{totalItems}} matching {{ totalItems == 1 ? 'item' : 'items' }}</p> -->
+
+                    <div class="results">
+                        <article class="criteria" ng-repeat="item in filtered = entries | filter:search | filter:search.level:true | startFrom:(currentPage-1)*entryLimit | limitTo:entryLimit">
+                            <h2 class="criteria__description" ng-bind-html="item.criteria | highlight:search.criteria">{{item.criteria}}</h2>
+                            <p class="criteria__ref" ng-if="item.ref !== null">Spec Ref: {{item.ref}}</p>
+                            <p ng-if="item.url !== ''"><a href="{{item.url}}">{{item.url}}</a></p>
+                            <p class="criteria__level criteria__level--{{item.level | lowercase}}">{{item.level}}</p>
+
+                            <ul class="tags criteria__departments">
+                                <li ng-repeat="department in item.departments" class="criteria__department">{{department}}</li>
+                            </ul>
+                        </article>
+
+                        <p class="results__empty" ng-hide="totalItems">Sorry, no criteria found. <button type="button" ng-click="resetFilters()">Clear the filters?</button></p>
+                    </div>
+
+                    <ul class="pagination" ng-show="totalItems > 0">
+                        <li>
+                            <button type="button" class="pagination__button pagination__button--prev" ng-disabled="currentPage == 1" ng-click="currentPage=currentPage-1">Previous</button>
+                        </li>
+                        <li class="pagination__location">Page {{currentPage}} of {{ noOfPages }}</li>
+                        <li>
+                            <button type="button" class="pagination__button pagination__button--next" ng-disabled="currentPage >= noOfPages" ng-click="currentPage = currentPage+1">Next</button>
+                        </li>
+                    </ul>
+
+                    <footer class="details">JavaScript is required to load this guide.<br>Alternatively, you can <a href="data.json">download the guide</a> as JSON.</div></footer>
+                </div>
+            </div>
+        </div>
+        <script src="dist/scripts/app.js"></script>
+    </body>
+</html>

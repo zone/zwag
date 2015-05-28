@@ -1,0 +1,342 @@
+@import 'vendor/reset';
+
+$gutter: 2rem;
+$color-purple: #424297;
+$color-aqua: #1EB1A9;
+$color-grey: #f0f0f0;
+$color-dark-grey: #323230;
+
+$color__aaa: #149668;
+$color__aa: #09bcb8;
+$color__a: #059693;
+$color__zone: $color-purple;
+$color__srbp: #0c6583;
+
+@font-face {
+    font-family: 'icomoon';
+    src:url('../../fonts/icomoon.eot');
+    src:url('../../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/icomoon.woff') format('woff'),
+        url('../../fonts/icomoon.ttf') format('truetype'),
+        url('../../fonts/icomoon.svg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+body {
+    color: $color-dark-grey;
+    font-family: 'Open Sans', 'Arial';
+    line-height: 1.4;
+}
+
+img {
+    display: block;
+}
+
+a {
+    color: lighten($color-purple, 20%);
+    text-decoration: none;
+    transition: color .3s;
+
+    &:hover {
+        color: $color-purple;
+    }
+}
+
+.highlight {
+    display: inline-block;
+    padding: 0 .2rem;
+    margin: 0 -.2rem;
+
+    background-color: $color-aqua;
+    color: #fff;
+}
+
+.loader {
+    padding: 2rem 0;
+}
+
+.container {
+    max-width: 960px;
+    padding: 0 $gutter;
+    margin: 0 auto;
+}
+
+.app__logo {
+    display: inline-block;
+    margin-top: 1.5rem;
+}
+
+.app__title {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1em;
+    text-transform: uppercase;
+
+    strong {
+        display: block;
+
+        color: $color-aqua;
+        font-weight: 600;
+    }
+}
+
+.results {
+    border-top: 2px solid $color-purple;
+    border-bottom: 2px solid $color-purple;
+}
+
+.results__empty {
+    padding: 1.5rem 0 1.4rem 0;
+
+    text-align: center;
+}
+
+.criteria {
+    position: relative;
+
+    min-height: 4rem;
+    padding: 1.5rem 10rem 1.5rem 0;
+    border-top: 2px solid $color-grey;
+
+    &:first-child {
+        border-top: 0;
+    }
+}
+
+.criteria__description {
+    color: $color-purple;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.criteria__level {
+    position: absolute;
+    top: 1.5rem;
+    right: 0;
+
+    overflow: hidden;
+    display: block;
+    width: 4rem;
+    height: 4rem;
+
+    background-color: #ddd;
+    border-radius: 100%;
+    color: #fff;
+
+    line-height: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+
+    &--a {
+        background-color: $color__a;
+    }
+
+    &--aa {
+        background-color: $color__aa;
+    }
+
+    &--aaa {
+        background-color: $color__aaa;
+    }
+
+    &--srbp {
+        background-color: $color__srbp;
+    }
+
+    &--zone {
+        background-color: $color__zone;
+        background-image: url('../../images/zone-logo.svg');
+        background-size: 100%;
+        text-indent: 4rem;
+    }
+}
+
+.criteria__ref {
+    margin-top: .25rem;
+
+    color: #989898;
+}
+
+.criteria__departments {
+    margin-top: .5rem;
+}
+
+.criteria__department {
+    display: inline-block;
+
+    color: $color-aqua;
+    text-transform: uppercase;
+
+    &:before {
+        display: inline-block;
+        margin: 0 .5rem;
+
+        content: '/'
+    }
+
+    &:first-child:before {
+        display: none;
+    }
+}
+
+.pagination {
+    display: flex;
+    margin: 1.5rem 0;
+
+    align-items: center;
+    color: $color-dark-grey;
+    justify-content: center;
+
+    &__button {
+        position: relative;
+
+        // overflow: hidden;
+        display: block;
+        width: 2rem;
+        height: 2rem;
+        border: 2px solid $color-purple;
+
+        background-color: transparent;
+        border-radius: 100%;
+        color: $color-purple;
+        cursor: pointer;
+        line-height: 1.7rem;
+        font-size: 1.1rem;
+        text-align: center;
+        text-indent: 4rem;
+
+        &--prev:before,
+        &--next:before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+
+            display: block;
+            margin-top: 1px;
+
+            content: '\e604';
+
+            font-family: 'icomoon';
+            speak: none;
+            font-style: normal;
+            font-weight: normal;
+            font-variant: normal;
+            text-transform: none;
+            text-indent: 0;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+
+            transition: transform .5s;
+        }
+
+        &--prev:before {
+            transform: rotateY(180deg);
+        }
+
+        &--prev:hover:before {
+            transform: translateX(-2px) rotateY(180deg);
+        }
+
+        &--next:hover:before {
+            transform: translateX(2px);
+        }
+
+        &[disabled] {
+            border-color: #999;
+            color: #999;
+        }
+
+        &--prev[disabled]:hover:before {
+            transform: translateX(0) rotateY(180deg);
+        }
+
+        &--next[disabled]:hover:before {
+            transform: translateX(0);
+        }
+    }
+
+    &__location {
+        margin: 0 1rem;
+    }
+}
+
+.details {
+    margin: 3rem 0 1.5rem;
+
+    color: #999;
+    font-size: .8rem;
+    text-align: center;
+}
+
+.form {
+    width: 50%;
+    margin-bottom: 2.5rem;
+}
+
+input[type="text"],
+select {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    padding: .5rem;
+    margin: 0;
+    border: 0;
+
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #f0f0ee;
+    border-radius: 0;
+    color: $color-dark-grey;
+    font: inherit;
+}
+
+input[type="text"] {
+    margin-bottom: .5rem;
+
+    &::placeholder {
+        color: $color-dark-grey;
+    }
+}
+
+select {
+    position: relative;
+    z-index: 2;
+    padding-right: 2rem;
+
+    background-color: transparent;
+}
+
+.select {
+    position: relative;
+
+    display: inline-block;
+    width: 35%;
+    margin-right: .5rem;
+
+    background-color: #f0f0ee;
+
+    &:after {
+        position: absolute;
+        z-index: 0;
+        top: .5rem;
+        right: 0;
+
+        display: block;
+        width: 2rem;
+        height: 1rem;
+
+        color: $color-dark-grey;
+        content: '\25bc';
+        text-align: center;
+    }
+}
