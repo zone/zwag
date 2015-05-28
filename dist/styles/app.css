@@ -189,7 +189,8 @@ input[type="text"], select {
   margin: 0;
   border: 0;
   -webkit-appearance: none;
-  appearance: none;
+  -moz-appearance: none;
+       appearance: none;
   background-color: #f0f0ee;
   border-radius: 0;
   color: #323230;
