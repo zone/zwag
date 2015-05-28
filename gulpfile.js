@@ -8,7 +8,7 @@ var gulp        = require('gulp'),
     del         = require('del'),
     browserSync = require('browser-sync'),
     browserify  = require('browserify'),
-    transform   = require('vinyl-transform'),
+    through2    = require('through2'),
     paths       = {
         styles: {
             dist:  path.join('dist', 'styles'),
@@ -87,21 +87,23 @@ gulp.task('jshint', function() {
 // Scripts
 gulp.task('scripts', function() {
 
-    var browserifier = transform(function(filename) {
-        return browserify(config.browserify)
-            .add(filename)
-            .bundle()
-            .on('error', function(err) {
-                errorLogger(err);
-                this.emit('end');
-            });
-    });
-
-    return gulp.src(path.join(paths.scripts.src, 'app.js'))
-        .pipe(browserifier)
-        .pipe(production ? $.uglify() : $.util.noop())
-        .pipe(gulp.dest(paths.scripts.dist))
-        .pipe(browserSync.reload({ stream: true }));
+    gulp.src(path.join(paths.scripts.src, 'app.js'))
+    .pipe(through2.obj(function (file, enc, next){
+            browserify(config.browserify)
+                .add(file.path)
+                .bundle(function(err, res){
+                    // assumes file.contents is a Buffer
+                    file.contents = res;
+                    next(null, file);
+                })
+                .on('error', function(err) {
+                    errorLogger(err);
+                    this.emit('end');
+                });
+        }))
+    .pipe(production ? $.uglify() : $.util.noop())
+    .pipe(gulp.dest(paths.scripts.dist))
+    .pipe(browserSync.reload({ stream: true }));
 
 });
 
