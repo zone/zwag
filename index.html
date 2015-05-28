@@ -29,7 +29,7 @@
                         </select></span></p>
                     </div>
 
-                    <ul class="pagination" ng-show="totalItems > 0">
+                    <ul class="pagination" ng-show="totalItems">
                         <li>
                             <button type="button" class="pagination__button pagination__button--prev" ng-disabled="currentPage == 1" ng-click="currentPage=currentPage-1">Previous</button>
                         </li>
@@ -57,7 +57,7 @@
                         <p class="results__empty" ng-hide="totalItems">Sorry, no criteria found. <button type="button" ng-click="resetFilters()">Clear the filters?</button></p>
                     </div>
 
-                    <ul class="pagination" ng-show="totalItems > 0">
+                    <ul class="pagination" ng-show="totalItems">
                         <li>
                             <button type="button" class="pagination__button pagination__button--prev" ng-disabled="currentPage == 1" ng-click="currentPage=currentPage-1">Previous</button>
                         </li>
