@@ -4,7 +4,7 @@ var $ = require('jquery');
 
 module.exports = function($scope, $http, filterFilter) {
 
-    var $loader = $('.loader');
+    var $loader = $('.app__loader');
 
     // Pagination
     $scope.currentPage = 1;

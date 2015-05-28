@@ -12,10 +12,10 @@
     <body class="loading">
         <div class="container">
             <a href="http://thisiszone.com" class="app__logo"><img src="images/zone-logo.svg" alt="Zone" wisth="70" height="70"></a>
-            <div ng-controller="EntriesCtrl">
+            <div class="app" ng-controller="EntriesCtrl">
                 <h1 class="app__title">We care about <strong>Accessibility</strong></h1>
 
-                <div class="loader">Loading guide data...</div>
+                <div class="app__loader">Loading guide data...</div>
 
                 <div class="content" ng-cloak>
                     <div class="form">
@@ -56,7 +56,7 @@
                         </li>
                     </ul>
 
-                    <footer class="details">JavaScript is required to load this guide.<br>Alternatively, you can <a href="data.json">download the guide</a> as JSON.</div></footer>
+                    <footer class="app__footer">JavaScript is required to load this guide.<br>Alternatively, you can <a href="data.json">download the guide</a> as JSON.</div></footer>
                 </div>
             </div>
         </div>

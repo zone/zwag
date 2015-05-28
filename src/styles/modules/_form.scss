@@ -1,0 +1,62 @@
+.form {
+    width: 50%;
+    margin-bottom: 2.5rem;
+}
+
+input[type="text"],
+select {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    padding: .5rem;
+    margin: 0;
+    border: 0;
+
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #f0f0ee;
+    border-radius: 0;
+    color: $color-dark-grey;
+    font: inherit;
+}
+
+input[type="text"] {
+    margin-bottom: .5rem;
+
+    &::placeholder {
+        color: $color-dark-grey;
+    }
+}
+
+select {
+    position: relative;
+    z-index: 2;
+    padding-right: 2rem;
+
+    background-color: transparent;
+}
+
+.select {
+    position: relative;
+
+    display: inline-block;
+    width: 35%;
+    margin-right: .5rem;
+
+    background-color: #f0f0ee;
+
+    &:after {
+        position: absolute;
+        z-index: 0;
+        top: .5rem;
+        right: 0;
+
+        display: block;
+        width: 2rem;
+        height: 1rem;
+
+        color: $color-dark-grey;
+        content: '\25bc';
+        text-align: center;
+    }
+}
