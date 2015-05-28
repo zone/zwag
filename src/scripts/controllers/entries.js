@@ -20,8 +20,6 @@ module.exports = function($scope, $http, filterFilter) {
 
         data.forEach(function(item) {
             // Format item
-            item.departments = item.department ? item.department.split(', ') : [];
-            delete item.department;
 
             var tags = item.tags ? item.tags.split(', ') : [];
 
@@ -34,9 +32,12 @@ module.exports = function($scope, $http, filterFilter) {
             });
 
             // Add level 
-            if ($scope.levels.indexOf(item.level) === -1) {
-                $scope.levels.push(item.level);
-            }
+            item.levels.forEach(function(level) {
+                if ($scope.levels.indexOf(level) === -1) {
+                    $scope.levels.push(level);
+                }
+            });
+            
 
             // Add departments
             item.departments.forEach(function(department) {
@@ -58,7 +59,7 @@ module.exports = function($scope, $http, filterFilter) {
 
         // $watch search to update pagination
         $scope.$watch('search', function (newVal, oldVal) {
-            $scope.filtered = filterFilter($scope.entries, newVal);
+            $scope.filtered = filterFilter($scope.filteredEntries, newVal);
             $scope.totalItems = $scope.filtered.length;
             $scope.noOfPages = Math.ceil($scope.totalItems / $scope.entryLimit);
             $scope.currentPage = 1;
@@ -69,6 +70,13 @@ module.exports = function($scope, $http, filterFilter) {
     $scope.resetFilters = function () {
         // needs to be a function or it won't trigger a $watch
         $scope.search = {};
+    };
+
+    $scope.exactOrEmpty = function (actual, expected) {
+        if (!expected) {
+           return true;
+        }
+        return angular.equals(expected, actual);
     };
 
 };

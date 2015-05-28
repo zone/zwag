@@ -2,7 +2,7 @@
     position: relative;
 
     min-height: 4rem;
-    padding: 1.5rem 10rem 1.5rem 0;
+    padding: 1.5rem 12rem 1.5rem 0;
     border-top: 2px solid $color-grey;
 
     &:first-child {
@@ -15,15 +15,22 @@
     font-size: 1.2rem;
 }
 
-.criteria__level {
+.criteria__levels {
     position: absolute;
     top: 1.5rem;
     right: 0;
+
+    display: flex;
+}
+
+.criteria__level {
+    position: relative;
 
     overflow: hidden;
     display: block;
     width: 4rem;
     height: 4rem;
+    margin-left: -.75rem;
 
     background-color: #ddd;
     border-radius: 100%;
@@ -33,15 +40,25 @@
     text-align: center;
     text-transform: uppercase;
 
+    &:first-child {
+        margin-left: 0;
+    }
+
     &--a {
+        z-index: 3;
+
         background-color: $color__a;
     }
 
     &--aa {
+        z-index: 2;
+
         background-color: $color__aa;
     }
 
     &--aaa {
+        z-index: 1;
+
         background-color: $color__aaa;
     }
 
