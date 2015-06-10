@@ -11,15 +11,19 @@
     </head>
     <body class="loading">
         <div class="container">
-            <a href="http://thisiszone.com" class="app__logo"><img src="images/zone-logo.svg" alt="Zone" wisth="70" height="70"></a>
+            <a href="http://thisiszone.com" class="app__logo">
+                <img src="images/zone-logo.svg" alt="Zone" wisth="70" height="70">
+            </a>
+            <h1 class="app__title">Easy lookup <strong>web accessibility guidelines</strong></h1>
+            <p>A web app which provides succinct interpretations of the WCAG 2.0 spec with optional filters for priority level and discipline. We have inlcuded some of our own criterion too and welcome any suggestions and feedback.</p>
             <div class="app" ng-controller="EntriesCtrl">
-                <h1 class="app__title">We care about <strong>Accessibility</strong></h1>
+                <!-- <h2 class="app__title">We care about <strong>Accessibility</strong></h2>-->
 
                 <div class="app__loader">Loading guide data...</div>
 
                 <div class="content" ng-cloak>
                     <div class="form">
-                        <p><input type="text" placeholder="Looking for something?" ng-model="search.criteria"></p>
+                        <p><input type="text" placeholder="Enter a search term e.g. forms" ng-model="search.criteria"></p>
                         <p><span class="select"><select ng-model="search.level">
                             <option value="">Any level</option>
                             <option ng-repeat="level in levels" value="{{level}}">{{level}}</option>
@@ -56,7 +60,13 @@
                         </li>
                     </ul>
 
-                    <footer class="app__footer">JavaScript is required to load this guide.<br>Alternatively, you can <a href="data.json">download the guide</a> as JSON.</div></footer>
+                    <footer class="app__footer">
+                        <div>JavaScript is required to load this guide.<br>Alternatively, you can <a href="data.json">download the guide</a> as JSON.</div>
+                        <div>
+                            <h3>Disclaimer</h3>
+                            <p>This web app does not attempt to be a substitute for the official W3C Web Content Accessibility Guidelines, which can be found here <a>http://www.w3.org/TR/WCAG20/</a>. </p>
+
+                    </footer>
                 </div>
             </div>
         </div>
