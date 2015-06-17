@@ -1,6 +1,12 @@
 .app {
+    margin-top: 2em;
+
     &__loader {
         padding: 2rem 0;
+    }
+
+    &__intro {
+        margin-bottom: 2rem;
     }
 
     &__logo {
@@ -31,5 +37,9 @@
         color: #999;
         font-size: .8rem;
         text-align: center;
+
+        p + p {
+            margin-top: 1rem;
+        }
     }
 }

@@ -76,32 +76,41 @@ a {
   background-color: #1EB1A9;
   color: #fff; }
 
-/* line 2, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_app.scss */
-.app__loader {
-  padding: 2rem 0; }
-/* line 6, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_app.scss */
-.app__logo {
-  display: inline-block;
-  margin-top: 1.5rem; }
-/* line 11, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_app.scss */
-.app__title {
-  margin-top: 3rem;
-  margin-bottom: 2rem;
-  font-size: 3rem;
-  font-weight: 300;
-  line-height: 1em;
-  text-transform: uppercase; }
-  /* line 20, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_app.scss */
-  .app__title strong {
-    display: block;
-    color: #1EB1A9;
-    font-weight: 600; }
-/* line 28, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_app.scss */
-.app__footer {
-  margin: 3rem 0 1.5rem;
-  color: #999;
-  font-size: .8rem;
-  text-align: center; }
+/* line 1, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_app.scss */
+.app {
+  margin-top: 2em; }
+  /* line 4, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_app.scss */
+  .app__loader {
+    padding: 2rem 0; }
+  /* line 8, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_app.scss */
+  .app__intro {
+    margin-bottom: 2rem; }
+  /* line 12, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_app.scss */
+  .app__logo {
+    display: inline-block;
+    margin-top: 1.5rem; }
+  /* line 17, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_app.scss */
+  .app__title {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1em;
+    text-transform: uppercase; }
+    /* line 26, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_app.scss */
+    .app__title strong {
+      display: block;
+      color: #1EB1A9;
+      font-weight: 600; }
+  /* line 34, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_app.scss */
+  .app__footer {
+    margin: 3rem 0 1.5rem;
+    color: #999;
+    font-size: .8rem;
+    text-align: center; }
+    /* line 41, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_app.scss */
+    .app__footer p + p {
+      margin-top: 1rem; }
 
 /* line 1, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_criteria.scss */
 .criteria {
