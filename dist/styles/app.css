@@ -81,7 +81,7 @@ a {
   margin-top: 2em; }
   /* line 4, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_app.scss */
   .app__loader {
-    padding: 2rem 0; }
+    padding: 0 0 2rem; }
   /* line 8, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_app.scss */
   .app__intro {
     margin-bottom: 2rem; }
