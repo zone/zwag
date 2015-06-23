@@ -642,7 +642,7 @@
   {
     "level":"A",
     "ref":"3.3.1",
-    "criteria":"Error notification is positioned before the field or fields in error. ",
+    "criteria":"Error notification is clearly associated with the relevant field or fields in error. ",
     "tags":"forms, labels, inputs, groups, links, errors, validation",
     "department":"Front-end",
     "url":""
