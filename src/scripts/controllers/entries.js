@@ -1,5 +1,6 @@
 'use strict';
 
+var angular = require('angular');
 
 module.exports = function($scope, $http, filterFilter) {
 
@@ -57,7 +58,7 @@ module.exports = function($scope, $http, filterFilter) {
         $scope.noOfPages = Math.ceil($scope.totalItems / $scope.entryLimit);
 
         // $watch search to update pagination
-        $scope.$watch('search', function (newVal, oldVal) {
+        $scope.$watch('search', function (newVal) {
             $scope.filtered = filterFilter($scope.filteredEntries, newVal);
             $scope.totalItems = $scope.filtered.length;
             $scope.noOfPages = Math.ceil($scope.totalItems / $scope.entryLimit);
