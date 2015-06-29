@@ -1,10 +1,9 @@
 'use strict';
 
-var $ = require('jquery');
 
 module.exports = function($scope, $http, filterFilter) {
 
-    var $loader = $('.app__loader');
+    var loader = document.querySelector('.app__loader');
 
     // Pagination
     $scope.currentPage = 1;
@@ -16,7 +15,7 @@ module.exports = function($scope, $http, filterFilter) {
 
     $http.get('data.json').success(function(data) {
 
-        $loader.hide();
+        loader.style.display = 'none';
 
         data.forEach(function(item) {
             // Format item
