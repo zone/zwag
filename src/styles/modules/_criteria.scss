@@ -2,8 +2,12 @@
     position: relative;
 
     min-height: 4rem;
-    padding: 1.5rem 12rem 1.5rem 0;
+    padding: 1.5rem 0;
     border-top: 2px solid $color-grey;
+
+    @media (min-width: 40em) {
+        padding-right: 12rem;
+    }
 
     &:first-child {
         border-top: 0;
@@ -16,11 +20,13 @@
 }
 
 .criteria__levels {
-    position: absolute;
-    top: 1.5rem;
-    right: 0;
-
     display: flex;
+
+    @media (min-width: 40em) {
+        position: absolute;
+        top: 1.5rem;
+        right: 0;
+    }
 }
 
 .criteria__level {
@@ -82,6 +88,11 @@
 
 .criteria__departments {
     margin-top: .5rem;
+    margin-bottom: 1.5rem;
+
+    @media (min-width: 40em) {
+        margin-bottom: 0;
+    }
 }
 
 .criteria__department {

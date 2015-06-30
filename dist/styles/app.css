@@ -129,27 +129,32 @@ p:last-child {
 .criteria {
   position: relative;
   min-height: 4rem;
-  padding: 1.5rem 12rem 1.5rem 0;
+  padding: 1.5rem 0;
   border-top: 2px solid #f0f0f0; }
-  /* line 8, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_criteria.scss */
+  @media (min-width: 40em) {
+    .criteria {
+      padding-right: 12rem; } }
+  /* line 12, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_criteria.scss */
   .criteria:first-child {
     border-top: 0; }
 
-/* line 13, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_criteria.scss */
+/* line 17, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_criteria.scss */
 .criteria__description {
   color: #424297;
   font-size: 1.2rem; }
 
-/* line 18, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_criteria.scss */
+/* line 22, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_criteria.scss */
 .criteria__levels {
-  position: absolute;
-  top: 1.5rem;
-  right: 0;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
+  @media (min-width: 40em) {
+    .criteria__levels {
+      position: absolute;
+      top: 1.5rem;
+      right: 0; } }
 
-/* line 26, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_criteria.scss */
+/* line 32, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_criteria.scss */
 .criteria__level {
   position: relative;
   overflow: hidden;
@@ -163,60 +168,70 @@ p:last-child {
   line-height: 3.4rem;
   text-align: center;
   text-transform: uppercase; }
-  /* line 43, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_criteria.scss */
+  /* line 49, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_criteria.scss */
   .criteria__level:first-child {
     margin-left: 0; }
-  /* line 47, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_criteria.scss */
+  /* line 53, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_criteria.scss */
   .criteria__level--a {
     z-index: 3;
     background-color: #059693; }
-  /* line 53, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_criteria.scss */
+  /* line 59, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_criteria.scss */
   .criteria__level--aa {
     z-index: 2;
     background-color: #09bcb8; }
-  /* line 59, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_criteria.scss */
+  /* line 65, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_criteria.scss */
   .criteria__level--aaa {
     z-index: 1;
     background-color: #149668; }
-  /* line 65, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_criteria.scss */
+  /* line 71, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_criteria.scss */
   .criteria__level--srbp {
     background-color: #0c6583; }
-  /* line 69, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_criteria.scss */
+  /* line 75, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_criteria.scss */
   .criteria__level--zone {
     background-color: #424297;
     background-image: url('../../images/zone-logo.svg');
     background-size: 100%;
     text-indent: 4rem; }
 
-/* line 77, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_criteria.scss */
+/* line 83, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_criteria.scss */
 .criteria__ref {
   margin-top: .25rem;
   color: #989898; }
 
-/* line 83, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_criteria.scss */
+/* line 89, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_criteria.scss */
 .criteria__departments {
-  margin-top: .5rem; }
+  margin-top: .5rem;
+  margin-bottom: 1.5rem; }
+  @media (min-width: 40em) {
+    .criteria__departments {
+      margin-bottom: 0; } }
 
-/* line 87, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_criteria.scss */
+/* line 98, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_criteria.scss */
 .criteria__department {
   display: inline-block;
   color: #1EB1A9;
   text-transform: uppercase; }
-  /* line 93, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_criteria.scss */
+  /* line 104, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_criteria.scss */
   .criteria__department:before {
     display: inline-block;
     margin: 0 .5rem;
     content: '/'; }
-  /* line 100, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_criteria.scss */
+  /* line 111, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_criteria.scss */
   .criteria__department:first-child:before {
     display: none; }
 
 /* line 1, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_form.scss */
 .form {
-  width: 50%;
+  width: 100%;
   margin-bottom: 2.5rem; }
+  /* line 5, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_form.scss */
+  .form p + p {
+    margin-top: -1rem; }
+  @media (min-width: 40em) {
+    .form {
+      width: 50%; } }
 
-/* line 7, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_form.scss */
+/* line 15, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_form.scss */
 input[type="text"], select {
   box-sizing: border-box;
   display: inline-block;
@@ -232,10 +247,10 @@ input[type="text"], select {
   color: #323230;
   font: inherit; }
 
-/* line 23, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_form.scss */
+/* line 31, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_form.scss */
 input[type="text"] {
   margin-bottom: .5rem; }
-  /* line 26, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_form.scss */
+  /* line 34, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_form.scss */
   input[type="text"]::-webkit-input-placeholder {
     color: #323230; }
   input[type="text"]::-moz-placeholder {
@@ -245,21 +260,27 @@ input[type="text"] {
   input[type="text"]::placeholder {
     color: #323230; }
 
-/* line 31, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_form.scss */
+/* line 39, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_form.scss */
 select {
   position: relative;
   z-index: 2;
   padding-right: 2rem;
   background-color: transparent; }
 
-/* line 39, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_form.scss */
+/* line 47, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_form.scss */
 .select {
   position: relative;
-  display: inline-block;
-  width: 35%;
-  margin-right: .5rem;
+  display: block;
+  width: 100%;
+  margin-bottom: .5rem;
   background-color: #f0f0ee; }
-  /* line 48, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_form.scss */
+  @media (min-width: 40em) {
+    .select {
+      display: inline-block;
+      width: 40%;
+      margin-right: .5rem;
+      margin-bottom: 0; } }
+  /* line 63, /Users/Mike/Sites/Zone/github/accessibility/src/styles/modules/_form.scss */
   .select:after {
     position: absolute;
     z-index: 0;

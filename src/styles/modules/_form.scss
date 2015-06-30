@@ -1,6 +1,14 @@
 .form {
-    width: 50%;
+    width: 100%;
     margin-bottom: 2.5rem;
+
+    p + p {
+        margin-top: -1rem;
+    }
+
+    @media (min-width: 40em) {
+        width: 50%;
+    }
 }
 
 input[type="text"],
@@ -39,11 +47,18 @@ select {
 .select {
     position: relative;
 
-    display: inline-block;
-    width: 35%;
-    margin-right: .5rem;
+    display: block;
+    width: 100%;
+    margin-bottom: .5rem;
 
     background-color: #f0f0ee;
+
+    @media (min-width: 40em) {
+        display: inline-block;
+        width: 40%;
+        margin-right: .5rem;
+        margin-bottom: 0;
+    }
 
     &:after {
         position: absolute;
