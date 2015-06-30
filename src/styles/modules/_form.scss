@@ -42,6 +42,14 @@ select {
     padding-right: 2rem;
 
     background-color: transparent;
+
+    &::-ms-expand {
+        display: none;
+    }
+
+    .ie-9 & {
+        padding-right: .5rem;
+    }
 }
 
 .select {
@@ -72,6 +80,11 @@ select {
 
         color: $color-dark-grey;
         content: '\25bc';
+        pointer-events: none;
         text-align: center;
+
+        .ie-9 & {
+            display: none;
+        }
     }
 }
