@@ -53,7 +53,7 @@
                         <article class="criteria" ng-repeat="item in filteredEntries = (entries | filter:search.levels:exactOrEmpty | filter:search) | startFrom:(currentPage-1)*entryLimit | limitTo:entryLimit">
                             <h2 class="criteria__description" ng-bind-html="item.criteria | highlight:search.criteria">{{item.criteria}}</h2>
                             <p class="criteria__ref" ng-if="item.ref !== null">Spec Ref: {{item.ref}}</p>
-                            <p ng-if="item.url !== ''"><a href="{{item.url}}">{{item.url}}</a></p>
+                            <p class="criteria__ref" ng-if="item.url !== ''"><a href="{{item.url}}">{{item.url}}</a></p>
 
                             <ul class="tags criteria__departments">
                                 <li ng-repeat="department in item.departments" class="criteria__department">{{department}}</li>
