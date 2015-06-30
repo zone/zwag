@@ -63,7 +63,7 @@ gulp.task('styles', function() {
             .on('error', errorLogger)
         .pipe($.autoprefixer(config.autoprefixer))
             .on('error', errorLogger)
-        .pipe(production ? $.minifyCss() : $.util.noop())
+        .pipe($.minifyCss())
         .pipe(gulp.dest(path.join(paths.styles.dist)))
         .pipe(browserSync.reload({ stream: true }));
 
@@ -101,7 +101,7 @@ gulp.task('scripts', function() {
                     this.emit('end');
                 });
         }))
-    .pipe(production ? $.uglify() : $.util.noop())
+    .pipe($.uglify())
     .pipe(gulp.dest(paths.scripts.dist))
     .pipe(browserSync.reload({ stream: true }));
 
