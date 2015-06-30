@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="accessibilityApp">
+<!--[if lte IE 8]><html lang="en" ng-app="accessibilityApp" class="old-ie"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en" ng-app="accessibilityApp"><!--<![endif]-->
     <head>
         <title>Accessibility - Zone</title>
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" type="text/css">
@@ -11,6 +12,9 @@
         <meta name="viewport" content="width=device-width,initial-scale=1">
     </head>
     <body class="loading">
+        <div class="alert">
+            <div class="container">Sorry, you'll need to <a href="http://whatbrowser.org/">update your browser</a> to view this page.</div>
+        </div>
         <div class="container">
             <a href="http://thisiszone.com" class="app__logo" title="Visit the Zone website">
                 <img src="images/zone-logo.svg" alt="Zone" width="70" height="70">
