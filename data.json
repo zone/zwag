@@ -1,7 +1,10 @@
 [
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.3.1",
+    "refs":[{
+      "number":"1.3.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
+      }],
     "criteria":"Text that is styled as headings uses heading markup.",
     "tags":"",
     "departments":["Front-end"],
@@ -9,7 +12,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.3.1",
+    "refs":[{
+      "number":"1.3.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
+    }],
     "criteria":"Only text that heads up content has been coded as headings.",
     "tags":"headings, heading, content, structure",
     "departments":["Front-end"],
@@ -17,7 +23,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.3.1",
+    "refs":[{
+      "number":"1.3.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
+    }],
     "criteria":"Heading levels have been applied in a logical sequence.\n",
     "tags":"headings, heading, content, structure",
     "departments":["Front-end"],
@@ -25,7 +34,7 @@
   },
   {
     "levels":["Zone"],
-    "ref":null,
+    "refs":[],
     "criteria":"H1 identifies the main content heading, and is positioned immediately before the unique page content.",
     "tags":"headings, heading, content, structure",
     "departments":["Front-end"],
@@ -33,7 +42,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.3.1",
+    "refs":[{
+      "number":"1.3.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
+    }],
     "criteria":"Heading markup precedes, rather than encloses, subordinate content.",
     "tags":"headings, heading, content, structure",
     "departments":["Front-end"],
@@ -41,7 +53,10 @@
   },
   {
     "levels":["AA","AAA"],
-    "ref":"2.4.6",
+    "refs":[{
+      "number":"2.4.6",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html"
+    }],
     "criteria":"Headings are descriptive and accurate.",
     "tags":"headings, heading, content, structure",
     "departments":["Editorial"],
@@ -49,7 +64,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"2.4.2",
+    "refs":[{
+      "number":"2.4.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html"
+    }],
     "criteria":"All pages (including those within frames) have page titles.",
     "tags":"headings, heading, content, titles, structure",
     "departments":["Editorial"],
@@ -57,7 +75,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"2.4.2",
+    "refs":[{
+      "number":"2.4.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html"
+    }],
     "criteria":"Each page title is unique, unless it is the result of a user search.",
     "tags":"headings, heading, content, titles, structure",
     "departments":["Editorial"],
@@ -65,7 +86,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"2.4.2",
+    "refs":[{
+      "number":"2.4.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html"
+    }],
     "criteria":"Page titles describe the topic or purpose of the page.",
     "tags":"headings, heading, content, titles, structure",
     "departments":["Editorial"],
@@ -73,7 +97,7 @@
   },
   {
     "levels":["Zone"],
-    "ref":null,
+    "refs":[],
     "criteria":"Where possible, the document title should match the page title",
     "tags":"headings, heading, content, titles, structure",
     "departments":["Front-end","Back-end"],
@@ -81,7 +105,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.3.1",
+    "refs":[{
+      "number":"1.3.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
+    }],
     "criteria":"Where tabular layout is required to understand data, data tables are used correctly.",
     "tags":"data, tables, tabular data, structure",
     "departments":["Front-end"],
@@ -89,7 +116,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.3.1",
+    "refs":[{
+      "number":"1.3.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
+    }],
     "criteria":"Data tables have separate cells for individual data items. ",
     "tags":"data, tables, tabular data, structure",
     "departments":["Front-end"],
@@ -97,7 +127,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.3.1",
+    "refs":[{
+      "number":"1.3.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
+    }],
     "criteria":"Simple data table headers are correctly marked up using TH elements.",
     "tags":"data, tables, tabular data, structure",
     "departments":["Front-end"],
@@ -105,7 +138,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.3.1",
+    "refs":[{
+      "number":"1.3.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
+    }],
     "criteria":"Complex data tables have appropriate SCOPE, ID and HEADERS markup.",
     "tags":"data, tables, tabular data, structure",
     "departments":["Front-end"],
@@ -113,7 +149,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.3.1",
+    "refs":[{
+      "number":"1.3.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
+    }],
     "criteria":"SUMMARY attributes and/or CAPTION elements are used correctly.",
     "tags":"data, tables, tabular data, structure",
     "departments":["Front-end"],
@@ -121,7 +160,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.3.1",
+    "refs":[{
+      "number":"1.3.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
+    }],
     "criteria":"List elements OL, UL and DL are used only for appropriate lists.",
     "tags":"Lists, blockquotes, structure, strong, emphasis, structure",
     "departments":["Front-end"],
@@ -129,7 +171,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.3.1",
+    "refs":[{
+      "number":"1.3.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
+    }],
     "criteria":"Where items are presented in a visual list, list markup is used.",
     "tags":"Lists, blockquotes, structure, strong, emphasis, structure",
     "departments":["Front-end"],
@@ -137,7 +182,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.3.1",
+    "refs":[{
+      "number":"1.3.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
+    }],
     "criteria":"BLOCKQUOTE and CITE elements are used for quotations only.",
     "tags":"Lists, blockquotes, structure, strong, emphasis, structure",
     "departments":["Front-end"],
@@ -145,7 +193,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.3.1",
+    "refs":[{
+      "number":"1.3.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
+    }],
     "criteria":"Where quotations are cited, BLOCKQUOTE elements are used.",
     "tags":"Lists, blockquotes, structure, strong, emphasis, structure",
     "departments":["Front-end"],
@@ -153,7 +204,10 @@
   },
   {
     "levels":["AAA"],
-    "ref":"3.1.4",
+    "refs":[{
+      "number":"3.1.4",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-located.html"
+    }],
     "criteria":"Abbreviations are expanded in either text or markup, but not both for the same instance.",
     "tags":"Lists, blockquotes, structure, strong, emphasis, structure",
     "departments":["Front-end"],
@@ -161,7 +215,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.3.1",
+    "refs":[{
+      "number":"1.3.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
+    }],
     "criteria":"EM or STRONG elements are used for emphasis.",
     "tags":"Lists, blockquotes, structure, strong, emphasis, structure",
     "departments":["Front-end"],
@@ -169,7 +226,7 @@
   },
   {
     "levels":["Zone"],
-    "ref":null,
+    "refs":[],
     "criteria":"Important emphasis conveyed by EM or STRONG elements is also conveyed by text.",
     "tags":"Lists, blockquotes, structure, strong, emphasis, structure",
     "departments":["Front-end"],
@@ -177,7 +234,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"2.4.1",
+    "refs":[{
+      "number":"2.4.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html"
+    }],
     "criteria":"Blocks of repeated content can be bypassed by skip links or provided structure.",
     "tags":"Navigation, skip links, links, structure",
     "departments":["UX"],
@@ -185,7 +245,7 @@
   },
   {
     "levels":["Zone"],
-    "ref":null,
+    "refs":[],
     "criteria":"Where skip links are used, they function correctly and are visible, or become visible on tab focus.",
     "tags":"Navigation, skip links, links, structure",
     "departments":["Front-end"],
@@ -193,7 +253,10 @@
   },
   {
     "levels":["AA","AAA"],
-    "ref":"2.4.5",
+    "refs":[{
+      "number":"2.4.5",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-mult-loc.html"
+    }],
     "criteria":"More than one way to navigate between web pages is provided.",
     "tags":"Navigation, skip links, links, structure",
     "departments":["UX"],
@@ -201,7 +264,10 @@
   },
   {
     "levels":["AA","AAA"],
-    "ref":"3.2.3",
+    "refs":[{
+      "number":"3.2.3",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html"
+    }],
     "criteria":"Navigational segments repeated on multiple Web pages occur in the same relative order each time they are used, unless the user initiates the change.",
     "tags":"Navigation, skip links, links, structure",
     "departments":["Front-end"],
@@ -209,7 +275,10 @@
   },
   {
     "levels":["AA","AAA"],
-    "ref":"1.4.3",
+    "refs":[{
+      "number":"1.4.3",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html"
+    }],
     "criteria":"Contrast ratios achieve the minimum threshold or a style switch option with good contrast is provided.",
     "tags":"Foreground, background, colour, color, color contrast, design",
     "departments":["Design"],
@@ -217,7 +286,10 @@
   },
   {
     "levels":["AA","AAA"],
-    "ref":"1.4.3",
+    "refs":[{
+      "number":"1.4.3",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html"
+    }],
     "criteria":"Colour is defined for both background and text, or for neither.",
     "tags":"Foreground, background, colour, color, color contrast, design",
     "departments":["Front-end"],
@@ -225,7 +297,10 @@
   },
   {
     "levels":["AA","AAA"],
-    "ref":"1.4.3",
+    "refs":[{
+      "number":"1.4.3",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html"
+    }],
     "criteria":"Colour for text and background is defined in the same way, (both in CSS or both in HTML).",
     "tags":"Foreground, background, colour, color, color contrast, design",
     "departments":["Front-end"],
@@ -233,7 +308,10 @@
   },
   {
     "levels":["AA","AAA"],
-    "ref":"1.4.3",
+    "refs":[{
+      "number":"1.4.3",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html"
+    }],
     "criteria":"Images of text have a solid background colour.",
     "tags":"Foreground, background, colour, color, color contrast, design",
     "departments":["Front-end"],
@@ -241,7 +319,10 @@
   },
   {
     "levels":["AA","AAA"],
-    "ref":"1.4.3",
+    "refs":[{
+      "number":"1.4.3",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html"
+    }],
     "criteria":"Background images provide good contrast for foreground text.",
     "tags":"Foreground, background, colour, color, color contrast, design",
     "departments":["Design"],
@@ -249,7 +330,10 @@
   },
   {
     "levels":["AA","AAA"],
-    "ref":"1.4.4",
+    "refs":[{
+      "number":"1.4.4",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html"
+    }],
     "criteria":"Resizing up to 200% is possible, either natively from browser controls or with the aid of application or site tools.",
     "tags":"Text, text sizing, resizing, design",
     "departments":["Front-end"],
@@ -257,7 +341,10 @@
   },
   {
     "levels":["AA","AAA"],
-    "ref":"1.4.4",
+    "refs":[{
+      "number":"1.4.4",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html"
+    }],
     "criteria":"Text can be resized up to 200% without any cropping, truncating, overlapping, or loss of any information.",
     "tags":"Text, text sizing, resizing, design",
     "departments":["Front-end","Design"],
@@ -265,7 +352,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.4.1",
+    "refs":[{
+      "number":"1.4.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html"
+    }],
     "criteria":"Link text is distinguished from plain text by underline or other styling in addition to any colour difference. ",
     "tags":"Navigation, skip links, links, design",
     "departments":["Front-end","Design"],
@@ -273,7 +363,10 @@
   },
   {
     "levels":["AA","AAA"],
-    "ref":"2.4.7",
+    "refs":[{
+      "number":"2.4.7",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html"
+    }],
     "criteria":"Links all have visible keyboard focus indicators.",
     "tags":"Navigation, skip links, links, design",
     "departments":["Front-end"],
@@ -281,7 +374,10 @@
   },
   {
     "levels":["AA","AAA"],
-    "ref":"2.4.7",
+    "refs":[{
+      "number":"2.4.7",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html"
+    }],
     "criteria":"Form controls all have visible keyboard focus indicators.",
     "tags":"Navigation, skip links, links, design",
     "departments":["Front-end"],
@@ -289,7 +385,7 @@
   },
   {
     "levels":["Zone"],
-    "ref":null,
+    "refs":[],
     "criteria":"The clickable area of a link has been made as large as possible within the design i.e, padding has been put on the a-tag rather than a margin when spacing out the navigation.",
     "tags":"Navigation, skip links, links, design",
     "departments":["Design","Front-end"],
@@ -297,7 +393,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.3.2",
+    "refs":[{
+      "number":"1.3.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-sequence.html"
+    }],
     "criteria":"CSS styling can be removed, without making the reading order or relationship sequence of content illogical. ",
     "tags":"Layout, mark up, order, ordering, reading order, design",
     "departments":["Front-end"],
@@ -305,7 +404,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.3.2",
+    "refs":[{
+      "number":"1.3.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-sequence.html"
+    }],
     "criteria":"Layout tables can be linearised, without making the reading order or relationship sequence of content illogical.",
     "tags":"Layout, mark up, order, ordering, reading order, design",
     "departments":["Front-end"],
@@ -313,7 +415,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.3.1",
+    "refs":[{
+      "number":"1.3.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
+    }],
     "criteria":"Layout tables are free of data table elements and attributes.  ",
     "tags":"Layout, mark up, order, ordering, reading order, design",
     "departments":["Front-end"],
@@ -321,7 +426,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"4.1.2",
+    "refs":[{
+      "number":"4.1.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html"
+    }],
     "criteria":"Frames have descriptive title attributes.",
     "tags":"Iframes, frames, design",
     "departments":["Front-end"],
@@ -329,7 +437,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"4.1.2",
+    "refs":[{
+      "number":"4.1.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html"
+    }],
     "criteria":"IFRAME elements have descriptive title attributes.",
     "tags":"Iframes, frames, design",
     "departments":["Front-end"],
@@ -337,7 +448,10 @@
   },
   {
     "levels":["SRBP"],
-    "ref":"4.1.2",
+    "refs":[{
+      "number":"4.1.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html"
+    }],
     "criteria":"IFRAME elements have alternative content providing a descriptive link to the page or information presented within the IFRAME.",
     "tags":"Iframes, frames, design",
     "departments":["Front-end"],
@@ -345,7 +459,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.1.1",
+    "refs":[{
+      "number":"1.1.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
+    }],
     "criteria":"Linked images have alternative text concisely and accurately identifying the destination of the link. ",
     "tags":"Non-text content, non-text, images, media",
     "departments":["Editorial"],
@@ -353,7 +470,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.1.1",
+    "refs":[{
+      "number":"1.1.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
+    }],
     "criteria":"Informative images have alternative text accurately conveying equivalent information.",
     "tags":"Non-text content, non-text, images, media",
     "departments":["Editorial"],
@@ -361,7 +481,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.1.1",
+    "refs":[{
+      "number":"1.1.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
+    }],
     "criteria":"Images of text have alternative text accurately replicating visible text. ",
     "tags":"Non-text content, non-text, images, media",
     "departments":["Editorial"],
@@ -369,7 +492,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.1.1",
+    "refs":[{
+      "number":"1.1.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
+    }],
     "criteria":"Decorative, formatting or invisible images have empty ALT attributes.",
     "tags":"Non-text content, non-text, images, media",
     "departments":["Front-end","Editorial"],
@@ -377,7 +503,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.1.1",
+    "refs":[{
+      "number":"1.1.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
+    }],
     "criteria":"Complex images, such as graphs and diagrams have alternative text concisely identifying the image and the location of its long description.",
     "tags":"Non-text content, non-text, images, media",
     "departments":["Front-end","Editorial"],
@@ -385,7 +514,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.1.1",
+    "refs":[{
+      "number":"1.1.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
+    }],
     "criteria":"Complex images have long descriptions that convey the same information that is conveyed by the image.",
     "tags":"Non-text content, non-text, images, media",
     "departments":["Front-end","Editorial"],
@@ -393,7 +525,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.1.1",
+    "refs":[{
+      "number":"1.1.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
+    }],
     "criteria":"LONGDESC attributes are used appropriately and accurately. ",
     "tags":"Non-text content, non-text, images, media",
     "departments":["Front-end"],
@@ -401,7 +536,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.1.1",
+    "refs":[{
+      "number":"1.1.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
+    }],
     "criteria":"Groups of images conveying a single piece of information, such as ranking stars, or stage progression images, have appropriate ALT attributes. ",
     "tags":"Non-text content, non-text, images, media",
     "departments":["Front-end"],
@@ -409,7 +547,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.1.1",
+    "refs":[{
+      "number":"1.1.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
+    }],
     "criteria":"Background images are only used as decoration OR replicate information that is present in text.",
     "tags":"Non-text content, non-text, images, media",
     "departments":["Front-end"],
@@ -417,7 +558,10 @@
   },
   {
     "levels":["AA","AAA"],
-    "ref":"1.4.5",
+    "refs":[{
+      "number":"1.4.5",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-text-presentation.html"
+    }],
     "criteria":"Images of text are only used where the same presentation couldn't be achieved using text and styling.",
     "tags":"Non-text content, non-text, images, media",
     "departments":["Design"],
@@ -425,7 +569,10 @@
   },
   {
     "levels":["AA","AAA"],
-    "ref":"1.4.5",
+    "refs":[{
+      "number":"1.4.5",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-text-presentation.html"
+    }],
     "criteria":"Images of text can be replaced or restyled using style switching functionality.",
     "tags":"Non-text content, non-text, images, media",
     "departments":["Front-end"],
@@ -433,7 +580,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.1.1",
+    "refs":[{
+      "number":"1.1.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
+    }],
     "criteria":"Image map images all have alternative text providing an accurate context for the map's AREA elements.",
     "tags":"Non-text content, non-text, images, media, image maps",
     "departments":["Front-end"],
@@ -441,7 +591,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.1.1",
+    "refs":[{
+      "number":"1.1.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
+    }],
     "criteria":"Image map AREA elements have alternative text accurately describing the destination of links.",
     "tags":"Non-text content, non-text, images, media, image maps",
     "departments":["Front-end"],
@@ -449,7 +602,7 @@
   },
   {
     "levels":["Zone"],
-    "ref":null,
+    "refs":[],
     "criteria":"Redundant text links are provided for image map hotspots.",
     "tags":"Non-text content, non-text, images, media, image maps",
     "departments":["Front-end"],
@@ -457,7 +610,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.4.2",
+    "refs":[{
+      "number":"1.4.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-dis-audio.html"
+    }],
     "criteria":"Audio or video with sound that lasts for more than 3 seconds, is static on page load, or has a pause mechanism available at the top of the page.",
     "tags":"Non-text content, non-text, images, media, audio, video",
     "departments":["Front-end"],
@@ -465,7 +621,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.1.1",
+    "refs":[{
+      "number":"1.1.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
+    }],
     "criteria":"Audio only has a text alternative that at least provides descriptive identification of the audio. ",
     "tags":"Non-text content, non-text, images, media, audio, video",
     "departments":["Editorial"],
@@ -473,7 +632,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.2.1",
+    "refs":[{
+      "number":"1.2.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-av-only-alt.html"
+    }],
     "criteria":"Informative audio has a text alternative that is equivalent to the audible information.",
     "tags":"Non-text content, non-text, images, media, audio, video",
     "departments":["Editorial"],
@@ -481,7 +643,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.2.2",
+    "refs":[{
+      "number":"1.2.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-captions.html"
+    }],
     "criteria":"Audio used as an alternative to text content is clearly identified as such, and contains only information available in the primary content.",
     "tags":"Non-text content, non-text, images, media, audio, video",
     "departments":["Design"],
@@ -489,7 +654,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"2.2.2",
+    "refs":[{
+      "number":"2.2.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-pause.html"
+    }],
     "criteria":"Auto-starting silent video that lasts for more than 5 seconds, in web pages that include other content, can be paused, stopped or hidden by the user. ",
     "tags":"Non-text content, non-text, images, media, audio, video",
     "departments":["Front-end"],
@@ -497,7 +665,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.1.1",
+    "refs":[{
+      "number":"1.1.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
+    }],
     "criteria":"Silent video has a text alternative that at least provides descriptive identification of the video. ",
     "tags":"Non-text content, non-text, images, media, audio, video",
     "departments":["Front-end"],
@@ -505,7 +676,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.2.1",
+    "refs":[{
+      "number":"1.2.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-av-only-alt.html"
+    }],
     "criteria":"Informative silent video has a text alternative equivalent to the visible information. ",
     "tags":"Non-text content, non-text, images, media, audio, video",
     "departments":["Editorial"],
@@ -513,7 +687,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.2.2",
+    "refs":[{
+      "number":"1.2.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-captions.html"
+    }],
     "criteria":"Multimedia has synchronised captions for audio content.",
     "tags":"Non-text content, non-text, images, media, audio, video",
     "departments":["Front-end","Editorial"],
@@ -521,7 +698,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.2.2",
+    "refs":[{
+      "number":"1.2.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-captions.html"
+    }],
     "criteria":"Captions are complete, missing no dialogue or important sound effects.",
     "tags":"Non-text content, non-text, images, media, audio, video",
     "departments":["Front-end","Editorial"],
@@ -529,7 +709,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.2.3",
+    "refs":[{
+      "number":"1.2.3",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-audio-desc.html"
+    }],
     "criteria":"Multimedia has synchronised audio description of visual information, or a full text transcription.",
     "tags":"Non-text content, non-text, images, media, audio, video",
     "departments":["Front-end","Editorial"],
@@ -537,7 +720,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.2.3",
+    "refs":[{
+      "number":"1.2.3",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-audio-desc.html"
+    }],
     "criteria":"Audio description or text alternatives are complete, missing no visual information evident in the video. ",
     "tags":"Non-text content, non-text, images, media, audio, video",
     "departments":["Front-end","Editorial"],
@@ -545,7 +731,10 @@
   },
   {
     "levels":["AAA"],
-    "ref":"1.2.8",
+    "refs":[{
+      "number":"1.2.8",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-text-doc.html"
+    }],
     "criteria":"Multimedia has full text transcription, conveying both audible and visual information. ",
     "tags":"Non-text content, non-text, images, media, audio, video",
     "departments":["Editorial"],
@@ -553,7 +742,13 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.2.3\n& 1.2.8",
+    "refs":[{
+      "number":"1.2.3",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-audio-desc.html"
+    },{
+      "number":"1.2.8",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-text-doc.html"
+    }],
     "criteria":"Links to media alternatives are clearly labelled as such, positioned immediately next to the media (before embedded media, or adjacent to links that activate media players). ",
     "tags":"Non-text content, non-text, images, media, audio, video",
     "departments":["Front-end"],
@@ -561,7 +756,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.2.3",
+    "refs":[{
+      "number":"1.2.3",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-audio-desc.html"
+    }],
     "criteria":"Multimedia used as an alternative to text content is clearly identified as such, and contains only information available in the primary content.",
     "tags":"Non-text content, non-text, images, media, audio, video",
     "departments":["Front-end"],
@@ -569,7 +767,13 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"2.4.6 \n&  3.3.2",
+    "refs":[{
+      "number":"2.4.6",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html"
+    },{
+      "number":"3.3.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html"
+    }],
     "criteria":"Label text is accurate and makes the control purpose or required input clear. ",
     "tags":"forms, labels, inputs, groups, links",
     "departments":["Front-end"],
@@ -577,7 +781,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"3.3.2",
+    "refs":[{
+      "number":"3.3.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html"
+    }],
     "criteria":"Labels are correctly positioned.",
     "tags":"forms, labels, inputs, groups, links",
     "departments":["Front-end"],
@@ -585,7 +792,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.3.1",
+    "refs":[{
+      "number":"1.3.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
+    }],
     "criteria":"Form labels are explicitly associated with their related form fields.",
     "tags":"forms, labels, inputs, groups, links",
     "departments":["Front-end"],
@@ -593,7 +803,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"3.3.2",
+    "refs":[{
+      "number":"3.3.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html"
+    }],
     "criteria":"Groups of controls that are visually related, have labels that identify the required input for each field. ",
     "tags":"forms, labels, inputs, groups, links",
     "departments":["Front-end"],
@@ -601,7 +814,13 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.3.1 \n& 3.3.2",
+    "refs":[{
+      "number":"1.3.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
+    },{
+      "number":"3.3.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html"
+    }],
     "criteria":"The context or relationship between groups of form controls is identified effectively. ",
     "tags":"forms, labels, inputs, groups, links",
     "departments":["Front-end"],
@@ -609,7 +828,7 @@
   },
   {
     "levels":["Zone"],
-    "ref":null,
+    "refs":[],
     "criteria":"Links leading to help or additional information are positioned before, rather than within, explicit labels. ",
     "tags":"forms, labels, inputs, groups, links",
     "departments":["Front-end"],
@@ -617,7 +836,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"3.3.2",
+    "refs":[{
+      "number":"3.3.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html"
+    }],
     "criteria":"Instructions for completing forms are clear and complete. ",
     "tags":"forms, labels, inputs, groups, links",
     "departments":["Editorial"],
@@ -625,7 +847,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"3.3.2",
+    "refs":[{
+      "number":"3.3.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html"
+    }],
     "criteria":"Instructions for completing or correcting forms and form fields are positioned before the first, or related, field.",
     "tags":"forms, labels, inputs, groups, links",
     "departments":["Front-end"],
@@ -633,7 +858,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"3.3.2",
+    "refs":[{
+      "number":"3.3.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html"
+    }],
     "criteria":"Suggestions for correct format are made when input must be in a specific format. ",
     "tags":"forms, labels, inputs, groups, links",
     "departments":["Front-end"],
@@ -641,7 +869,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"3.3.1",
+    "refs":[{
+      "number":"3.3.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-identified.html"
+    }],
     "criteria":"Error notification is clearly associated with the relevant field or fields in error. ",
     "tags":"forms, labels, inputs, groups, links, errors, validation",
     "departments":["Front-end"],
@@ -649,7 +880,13 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"3.3.1\n& 3.3.3",
+    "refs":[{
+      "number":"3.3.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-identified.html"
+    },{
+      "number":"3.3.3",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-suggestions.html"
+    }],
     "criteria":"Mandatory fields without input are identified and described in text. ",
     "tags":" forms, labels, inputs, groups, links, errors, validation",
     "departments":["Front-end"],
@@ -657,7 +894,7 @@
   },
   {
     "levels":["Zone"],
-    "ref":null,
+    "refs":[],
     "criteria":"Mandatory fields should use both the html5 required attribute and the Aria-required attribute to ensure the in-built browser validation is accessible. The latter should be set to \"true\"",
     "tags":"forms, labels, inputs, groups, links, errors, validation",
     "departments":["Front-end"],
@@ -665,7 +902,13 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"3.3.1\n& 3.3.3",
+    "refs":[{
+      "number":"3.3.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-identified.html"
+    },{
+      "number":"3.3.3",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-suggestions.html"
+    }],
     "criteria":"Fields with incorrect data formats are identified in text and suggestion for correct format is made",
     "tags":"forms, labels, inputs, groups, links, errors, validation",
     "departments":["Front-end"],
@@ -673,7 +916,7 @@
   },
   {
     "levels":["Zone"],
-    "ref":null,
+    "refs":[],
     "criteria":"Form errors are denoted by a heading (h2) and the errors themselves are in an unordered list",
     "tags":"forms, labels, inputs, groups, links, errors, validation",
     "departments":["Front-end","Back-end"],
@@ -681,7 +924,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"3.3.4",
+    "refs":[{
+      "number":"3.3.4",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-reversible.html"
+    }],
     "criteria":"Data entered by the user is checked for input errors and the user is given an opportunity to make corrections.",
     "tags":"forms, labels, inputs, groups, links, errors, validation",
     "departments":["Front-end","Back-end"],
@@ -689,7 +935,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"3.3.4",
+    "refs":[{
+      "number":"3.3.4",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-reversible.html"
+    }],
     "criteria":"A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission. ",
     "tags":"forms, labels, inputs, groups, links, errors, validation",
     "departments":["Front-end","Back-end"],
@@ -697,7 +946,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"3.3.4",
+    "refs":[{
+      "number":"3.3.4",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-reversible.html"
+    }],
     "criteria":"Submissions are reversible.",
     "tags":"forms, labels, inputs, groups, links, errors, validation, submission",
     "departments":["Back-end"],
@@ -705,7 +957,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.1.1\nAdvisory",
+    "refs":[{
+      "number":"1.1.1\nAdvisory",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
+    }],
     "criteria":"CAPTCHA challenges have a text description and consist of or include a text (form) challenge, or have adjacent contact information to obtain human help to pass or bypass the challenge. ",
     "tags":"forms, labels, inputs, groups, links, errors, validation, captcha",
     "departments":["Front-end","Back-end"],
@@ -713,7 +968,7 @@
   },
   {
     "levels":["Zone"],
-    "ref":null,
+    "refs":[],
     "criteria":"Form controls are device independent.",
     "tags":"forms, labels, inputs, groups, links, errors, validation",
     "departments":["Front-end","Back-end"],
@@ -721,7 +976,7 @@
   },
   {
     "levels":["Zone"],
-    "ref":null,
+    "refs":[],
     "criteria":"Form questions that require users to have specific sensory abilities are either optional or provide help for disabled users to successfully submit the form.",
     "tags":"forms, labels, inputs, groups, links, errors, validation",
     "departments":["Design"],
@@ -729,7 +984,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"3.1.1",
+    "refs":[{
+      "number":"3.1.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-doc-lang-id.html"
+    }],
     "criteria":"Default language is defined for all pages by accurate values provided in the LANG attribute of the HTML element.",
     "tags":"Language, text, content",
     "departments":["Front-end"],
@@ -737,7 +995,10 @@
   },
   {
     "levels":["AA","AAA"],
-    "ref":"3.1.2",
+    "refs":[{
+      "number":"3.1.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-other-lang-id.html"
+    }],
     "criteria":"Changes of language within web pages are identified by appropriate use of the LANG attribute, except for proper names and terms adopted into the main language for the page.",
     "tags":"Language, text, content",
     "departments":["Front-end","Back-end"],
@@ -745,7 +1006,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"4.1.2",
+    "refs":[{
+      "number":"4.1.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html"
+    }],
     "criteria":"The role of active components can be determined.",
     "tags":"Focus, role, aria-roles, labels, buttons, links, keyboard, controls",
     "departments":["Front-end"],
@@ -753,7 +1017,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"4.1.2",
+    "refs":[{
+      "number":"4.1.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html"
+    }],
     "criteria":"The visible value of non-text active components and the value exposed to access technologies include a matching term.",
     "tags":"Focus, role, aria-roles, labels, buttons, links, keyboard, controls",
     "departments":["Front-end"],
@@ -761,7 +1028,10 @@
   },
   {
     "levels":["AA","AAA"],
-    "ref":"3.2.4",
+    "refs":[{
+      "number":"3.2.4",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-functionality.html"
+    }],
     "criteria":"Labels, links and buttons with the same function in different Web pages are labelled consistently.",
     "tags":"Focus, role, aria-roles, labels, buttons, links, keyboard, controls",
     "departments":["Design","Front-end"],
@@ -769,7 +1039,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"2.4.3",
+    "refs":[{
+      "number":"2.4.3",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-order.html"
+    }],
     "criteria":"Keyboard focus order is logical through all interactive elements on web pages.",
     "tags":"Focus, role, aria-roles, labels, buttons, links, keyboard, controls",
     "departments":["Front-end"],
@@ -777,7 +1050,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"2.4.3",
+    "refs":[{
+      "number":"2.4.3",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-order.html"
+    }],
     "criteria":"Keyboard navigation through tree controls is logical and intuitive.",
     "tags":"Focus, role, aria-roles, labels, buttons, links, keyboard, controls",
     "departments":["Design","Front-end"],
@@ -785,7 +1061,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"2.4.4",
+    "refs":[{
+      "number":"2.4.4",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-refs.html"
+    }],
     "criteria":"All links have text content. ALT text on linked images counts as link text. ",
     "tags":"links, alt text, images, navigation",
     "departments":["Front-end","Editorial"],
@@ -793,7 +1072,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"2.4.4",
+    "refs":[{
+      "number":"2.4.4",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-refs.html"
+    }],
     "criteria":"The destination of links is made clear by link text, or link text that is given context by related content.",
     "tags":"links, alt text, images, navigation",
     "departments":["Front-end","Editorial"],
@@ -801,7 +1083,10 @@
   },
   {
     "levels":["AAA"],
-    "ref":"2.4.9",
+    "refs":[{
+      "number":"2.4.9",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-link.html"
+    }],
     "criteria":"Links to different destinations have unique link text. ",
     "tags":"links, alt text, images, navigation",
     "departments":["Front-end","Editorial"],
@@ -809,7 +1094,13 @@
   },
   {
     "levels":["AAA"],
-    "ref":"2.4.9\n& 3.2.5",
+    "refs":[{
+      "number":"2.4.9",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-link.html"
+    },{
+      "number":"3.2.5",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-no-extreme-changes-context.html"
+    }],
     "criteria":"Where links open new windows, warnings are provided within or before the link. ",
     "tags":"links, alt text, images, navigation",
     "departments":["Front-end","Editorial"],
@@ -817,7 +1108,13 @@
   },
   {
     "levels":["AAA"],
-    "ref":"2.4.9\n& 3.2.5",
+    "refs":[{
+      "number":"2.4.9",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-link.html"
+    },{
+      "number":"3.2.5",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-no-extreme-changes-context.html"
+    }],
     "criteria":"Links to non-HTML format files include, or are preceded by, notification of the destination file format and file size. ",
     "tags":"links, alt text, images, navigation",
     "departments":["Front-end","Editorial"],
@@ -825,7 +1122,10 @@
   },
   {
     "levels":["Zone"],
-    "ref":"2.4.4\nAdvisory",
+    "refs":[{
+      "number":"2.4.4\nAdvisory",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-refs.html"
+    }],
     "criteria":"Adjacent image and text links are combined in one link anchor, without creating repetition.",
     "tags":"links, alt text, images, navigation",
     "departments":["Front-end"],
@@ -833,7 +1133,13 @@
   },
   {
     "levels":["AAA"],
-    "ref":"2.4.9\n& 3.1.4",
+    "refs":[{
+      "number":"2.4.9",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-link.html"
+    },{
+      "number":"3.1.4",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-located.html"
+    }],
     "criteria":"Abbreviations within links and labels are expanded in markup. ",
     "tags":"links, text",
     "departments":["Front-end","Editorial"],
@@ -841,7 +1147,13 @@
   },
   {
     "levels":["AAA"],
-    "ref":"2.4.9\n& 3.1.4",
+    "refs":[{
+      "number":"2.4.9",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-link.html"
+    },{
+      "number":"3.1.4",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-located.html"
+    }],
     "criteria":"Link text is free of symbols that are exposed to screen readers.",
     "tags":"Links, text, symbols, icons",
     "departments":["Front-end","Back-end"],
@@ -849,7 +1161,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"2.2.2",
+    "refs":[{
+      "number":"2.2.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-pause.html"
+    }],
     "criteria":"All moving, blinking or scrolling content in web pages that include static content, either lasts for 5 seconds or less, or can be paused, stopped or hidden by the user. ",
     "tags":"moving, blinking, content, flashing, media, video, carousels, UI features, animation",
     "departments":["Design","Front-end"],
@@ -857,7 +1172,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"2.2.2",
+    "refs":[{
+      "number":"2.2.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-pause.html"
+    }],
     "criteria":"Moving, blinking or scrolling content that is meant to be read can be paused and restarted.",
     "tags":"moving, blinking, content, flashing, media, video, carousels, UI features, animation",
     "departments":["Design","Front-end"],
@@ -865,7 +1183,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"2.3.1",
+    "refs":[{
+      "number":"2.3.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html"
+    }],
     "criteria":"Flashing content is slower than 3 flashes per second. \n",
     "tags":"moving, blinking, content, flashing, media, video, carousels, UI features, animation",
     "departments":["Design","Front-end"],
@@ -873,7 +1194,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"2.3.1",
+    "refs":[{
+      "number":"2.3.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html"
+    }],
     "criteria":"The size of flashing content is too small to cause seizures.",
     "tags":"moving, blinking, content, flashing, media, video, carousels, UI features, animation",
     "departments":["Design","Front-end"],
@@ -881,7 +1205,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"2.2.1",
+    "refs":[{
+      "number":"2.2.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html"
+    }],
     "criteria":"If an automatic TIMEOUT occurs the user is able to turn off or adjust the time limit, or is warned before the time expires and can extend it.",
     "tags":"media, video, audio, interacton, carousels, UI features, animation, controls",
     "departments":["Front-end","Back-end"],
@@ -889,7 +1216,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"2.2.1",
+    "refs":[{
+      "number":"2.2.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html"
+    }],
     "criteria":"If content is auto-updated, unless the auto-updating is part of an activity where it is essential, users can stop or control updates. ",
     "tags":"media, video, audio, interacton, carousels, UI features, animation, controls, content",
     "departments":["Front-end","Back-end"],
@@ -897,7 +1227,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"2.2.1",
+    "refs":[{
+      "number":"2.2.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html"
+    }],
     "criteria":"If an essential auto-update occurs, users are notified of the updates in a way compatible with assistive technology.",
     "tags":"media, video, audio, interacton, carousels, UI features, animation, controls, content",
     "departments":["Front-end","Back-end"],
@@ -905,7 +1238,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"2.2.1",
+    "refs":[{
+      "number":"2.2.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html"
+    }],
     "criteria":"If a whole or part page automatic REFRESH occurs the user is able to adjust or turn off the timing of the refresh ",
     "tags":"media, video, audio, interacton, carousels, UI features, animation, controls, content",
     "departments":["Front-end","Back-end"],
@@ -913,7 +1249,10 @@
   },
   {
     "levels":["AAA"],
-    "ref":"3.2.5",
+    "refs":[{
+      "number":"3.2.5",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-no-extreme-changes-context.html"
+    }],
     "criteria":"Client-side redirects use instant META refresh rather than scripting.",
     "tags":"media, video, audio, interacton, carousels, UI features, animation, controls, content",
     "departments":["Front-end","Back-end"],
@@ -921,7 +1260,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"2.2.1",
+    "refs":[{
+      "number":"2.2.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html"
+    }],
     "criteria":"If a timed automatic REDIRECT occurs the user is able to turn off or adjust the time limit, or is warned and can extend the time.",
     "tags":"media, video, audio, interacton, carousels, UI features, animation, controls, content",
     "departments":["Front-end","Back-end"],
@@ -929,7 +1271,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"2.1.2",
+    "refs":[{
+      "number":"2.1.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-trapping.html"
+    }],
     "criteria":"There's no keyboard trap.",
     "tags":"Non-html, keyboard, constructs, objects, interfaces",
     "departments":["Front-end"],
@@ -937,7 +1282,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.1.1",
+    "refs":[{
+      "number":"1.1.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
+    }],
     "criteria":"Inaccessible functional embedded objects, interfaces and applets are preceded by a link to an accessible alternative that serves the same purpose.",
     "tags":"Non-html, keyboard, constructs, objects, interfaces",
     "departments":["Front-end","Back-end"],
@@ -945,7 +1293,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.1.1",
+    "refs":[{
+      "number":"1.1.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
+    }],
     "criteria":"Informative objects, interfaces and applets can be read by access technology, or have a text alternative that serves the same purpose. ",
     "tags":"Non-html, keyboard, constructs, objects, interfaces",
     "departments":["Front-end","Editorial"],
@@ -953,7 +1304,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.1.1",
+    "refs":[{
+      "number":"1.1.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
+    }],
     "criteria":"Objects and components that are used for decoration, formatting, or are Invisible, are rendered invisible to assistive technology.",
     "tags":"Non-html, keyboard, constructs, objects, interfaces",
     "departments":["Front-end"],
@@ -961,7 +1315,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"2.1.1",
+    "refs":[{
+      "number":"2.1.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html"
+    }],
     "criteria":"Interactive components are all device independent, or provide an alternative mechanism for keyboard control.",
     "tags":"Non-html, keyboard, constructs, objects, interfaces",
     "departments":["Front-end"],
@@ -969,7 +1326,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.3.2",
+    "refs":[{
+      "number":"1.3.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-sequence.html"
+    }],
     "criteria":"Interactive components within any interface are accessed in a meaningful order.",
     "tags":"Non-html, keyboard, constructs, objects, interfaces",
     "departments":["Front-end"],
@@ -977,7 +1337,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"4.1.2",
+    "refs":[{
+      "number":"4.1.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html"
+    }],
     "criteria":"Label text or name values make the purpose of active components or required input clear.",
     "tags":"Non-html, keyboard, constructs, objects, interfaces",
     "departments":["Front-end","Editorial"],
@@ -985,7 +1348,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"4.1.2",
+    "refs":[{
+      "number":"4.1.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html"
+    }],
     "criteria":"The role and state of active components can be programmatically determined.",
     "tags":"Non-html, keyboard, constructs, objects, interfaces",
     "departments":["Front-end"],
@@ -993,7 +1359,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"4.1.2",
+    "refs":[{
+      "number":"4.1.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html"
+    }],
     "criteria":"The focus state of active components can be visually determined.",
     "tags":"Non-html, keyboard, constructs, objects, interfaces",
     "departments":["Front-end"],
@@ -1001,7 +1370,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"2.1.1",
+    "refs":[{
+      "number":"2.1.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html"
+    }],
     "criteria":"Information that is revealed on mouse action, is also made visible on keyboard action. ",
     "tags":"Non-html, keyboard, constructs, objects, interfaces",
     "departments":["Front-end"],
@@ -1009,7 +1381,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.1.1",
+    "refs":[{
+      "number":"1.1.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
+    }],
     "criteria":"Java applets have appropriate ALT attributes",
     "tags":"Non-html, keyboard, constructs, objects, interfaces, Java applets",
     "departments":["Front-end"],
@@ -1017,7 +1392,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.1.1",
+    "refs":[{
+      "number":"1.1.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
+    }],
     "criteria":"Java applets have appropriate text alternatives in the body of each applet. ",
     "tags":"Non-html, keyboard, constructs, objects, interfaces, Java applets",
     "departments":["Front-end"],
@@ -1025,7 +1403,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.1.1",
+    "refs":[{
+      "number":"1.1.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
+    }],
     "criteria":"Information in downloadable documents is in text, or has a text alternative.",
     "tags":"Non-html, keyboard, downloadable files, PDF, downloads",
     "departments":["Editorial"],
@@ -1033,7 +1414,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.3.2",
+    "refs":[{
+      "number":"1.3.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-sequence.html"
+    }],
     "criteria":"Text and active elements in downloadable files have a logical reading order and relationship sequence.",
     "tags":"Non-html, keyboard, downloadable files, PDF, downloads",
     "departments":["Editorial"],
@@ -1041,7 +1425,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.3.1",
+    "refs":[{
+      "number":"1.3.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
+    }],
     "criteria":"Downloadable file content has structural styles or tags rather than purely visual structure.",
     "tags":"Non-html, keyboard, downloadable files, PDF, downloads",
     "departments":["Editorial"],
@@ -1049,7 +1436,10 @@
   },
   {
     "levels":["AA","AAA"],
-    "ref":"1.4.3",
+    "refs":[{
+      "number":"1.4.3",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html"
+    }],
     "criteria":"Foreground and background colours in downloadable files provide sufficient contrast.",
     "tags":"Non-html, keyboard, downloadable files, PDF, downloads, design, colour, color, colour contrast",
     "departments":["Design","Editorial"],
@@ -1057,7 +1447,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"4.1.2",
+    "refs":[{
+      "number":"4.1.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html"
+    }],
     "criteria":"Interactive elements within downloadable files can be reached and activated by both keyboard and mouse.",
     "tags":"Non-html, keyboard, downloadable files, PDF, downloads, mouse, touch",
     "departments":["Front-end"],
@@ -1065,7 +1458,16 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.3.1\n& 2.4.7\n& 4.1.2",
+    "refs":[{
+      "number":"1.3.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
+    },{
+      "number":"2.4.7",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html"
+    },{
+      "number":"4.1.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html"
+    }],
     "criteria":"Interactive elements within downloadable files can be recognised both visually and by screen readers.",
     "tags":"Non-html, keyboard, downloadable files, PDF, downloads, mouse, touch",
     "departments":["Design","Editorial"],
@@ -1073,7 +1475,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"3.1.1",
+    "refs":[{
+      "number":"3.1.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-doc-lang-id.html"
+    }],
     "criteria":"The default human language of each downloadable file is defined effectively.",
     "tags":"Non-html, keyboard, downloadable files, PDF, downloads, language",
     "departments":["Editorial","Design"],
@@ -1081,7 +1486,10 @@
   },
   {
     "levels":["AA","AAA"],
-    "ref":"3.1.2",
+    "refs":[{
+      "number":"3.1.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-other-lang-id.html"
+    }],
     "criteria":"Any changes of language within downloadable files are defined effectively.",
     "tags":"Non-html, keyboard, downloadable files, PDF, downloads, language",
     "departments":["Editorial","Design"],
@@ -1089,7 +1497,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.1.1",
+    "refs":[{
+      "number":"1.1.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
+    }],
     "criteria":"Visual tests or exercises that must be presented in non-text format have descriptive text alternatives. ",
     "tags":"non-text, text, images, alt-text",
     "departments":["Design","Front-end"],
@@ -1097,7 +1508,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.1.1",
+    "refs":[{
+      "number":"1.1.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
+    }],
     "criteria":"Non-text content designed to create a specific sensory experience has descriptive text alternatives. ",
     "tags":"non-text, text, images, alt-text",
     "departments":["Design","Front-end"],
@@ -1105,7 +1519,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"2.1.1",
+    "refs":[{
+      "number":"2.1.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html"
+    }],
     "criteria":"Links and form controls can be reached and activated by keyboard navigation, as well as mouse action.",
     "tags":"scripts, scripting, JavaScript, events",
     "departments":["Front-end"],
@@ -1113,7 +1530,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"2.1.1",
+    "refs":[{
+      "number":"2.1.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html"
+    }],
     "criteria":"Information that is revealed on mouse action is also revealed on keyboard action.",
     "tags":"scripts, scripting, JavaScript, events, mouse, touch, keyboard",
     "departments":["Front-end"],
@@ -1121,7 +1541,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"2.1.2",
+    "refs":[{
+      "number":"2.1.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-trapping.html"
+    }],
     "criteria":"Script event handlers allow keyboard tab key navigation to pass through links and controls without trapping the focus or spontaneously invoking an event.",
     "tags":"scripts, scripting, JavaScript, events, mouse, touch, keyboard",
     "departments":["Front-end"],
@@ -1129,7 +1552,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.3.1",
+    "refs":[{
+      "number":"1.3.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
+    }],
     "criteria":"Scripted additions to pages use functions of the DOM to create new content. ",
     "tags":"scripts, scripting, JavaScript, events, mouse, touch, keyboard",
     "departments":["Front-end","Back-end"],
@@ -1137,7 +1563,13 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.3.1\n& 4.1.2",
+    "refs":[{
+      "number":"1.3.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
+    },{
+      "number":"4.1.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html"
+    }],
     "criteria":"Scripted links can be recognised by screen readers as links. ",
     "tags":"scripts, scripting, JavaScript, events, mouse, touch, keyboard",
     "departments":["Front-end","Back-end"],
@@ -1145,7 +1577,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.1.1",
+    "refs":[{
+      "number":"1.1.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
+    }],
     "criteria":"Scripted controls and elements that accept user input are identified by names that describe their purpose.",
     "tags":"scripts, scripting, JavaScript, events, mouse, touch, keyboard",
     "departments":["Front-end","Back-end"],
@@ -1153,7 +1588,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"4.1.2",
+    "refs":[{
+      "number":"4.1.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html"
+    }],
     "criteria":"The role, state and value of scripted form controls are revealed to assistive technology.",
     "tags":"scripts, scripting, JavaScript, events, mouse, touch, keyboard, forms, controls",
     "departments":["Front-end"],
@@ -1161,7 +1599,7 @@
   },
   {
     "levels":["SRBP"],
-    "ref":null,
+    "refs":[],
     "criteria":"Cursor focus is determined by browser default behaviour or user action rather than positioning by client-side script.",
     "tags":"scripts, scripting, JavaScript, events, focus, forms",
     "departments":["Front-end"],
@@ -1169,7 +1607,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"3.2.2",
+    "refs":[{
+      "number":"3.2.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-unpredictable-change.html"
+    }],
     "criteria":"SELECT elements that cause context change have submit buttons rather than OnChange events.",
     "tags":"scripts, scripting, JavaScript, events, focus, forms",
     "departments":["Design","Front-end"],
@@ -1177,7 +1618,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"3.2.1",
+    "refs":[{
+      "number":"3.2.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html"
+    }],
     "criteria":"The user is forewarned of any change of context, such as new window opening, that will result from a page load.",
     "tags":"scripts, scripting, JavaScript, events, focus, forms",
     "departments":["Design","Front-end"],
@@ -1185,7 +1629,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"3.2.1",
+    "refs":[{
+      "number":"3.2.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html"
+    }],
     "criteria":"Focus on an element doesn't cause any change of context, such as new window opening, immediate change of focus or form submission.",
     "tags":"scripts, scripting, JavaScript, events, focus, forms",
     "departments":["Design","Front-end"],
@@ -1193,7 +1640,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"3.2.2",
+    "refs":[{
+      "number":"3.2.2",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-unpredictable-change.html"
+    }],
     "criteria":"Users are forewarned of any change of context, such as form submission or new window opening, that will result from user input.",
     "tags":"scripts, scripting, JavaScript, events, focus, forms",
     "departments":["Design","Front-end"],
@@ -1201,7 +1651,7 @@
   },
   {
     "levels":["Zone"],
-    "ref":null,
+    "refs":[],
     "criteria":"Forms can be submitted without support for client-side script.",
     "tags":"scripts, scripting, JavaScript, events, focus, forms",
     "departments":["Front-end","Back-end"],
@@ -1209,7 +1659,7 @@
   },
   {
     "levels":["Zone"],
-    "ref":null,
+    "refs":[],
     "criteria":"Important links work in the absence of client-side script.",
     "tags":"scripts, scripting, JavaScript, events, focus, forms",
     "departments":["Front-end","Back-end"],
@@ -1217,7 +1667,7 @@
   },
   {
     "levels":["Zone"],
-    "ref":null,
+    "refs":[],
     "criteria":"Where client-side script is used to generate important information, an alternative route to the same information is available.",
     "tags":"scripts, scripting, JavaScript, events, focus, forms",
     "departments":["Front-end","Back-end"],
@@ -1225,7 +1675,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.4.1",
+    "refs":[{
+      "number":"1.4.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html"
+    }],
     "criteria":"Information conveyed by colour difference is also available in text.",
     "tags":"color, colour, text",
     "departments":["Design","Front-end"],
@@ -1233,7 +1686,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.4.1",
+    "refs":[{
+      "number":"1.4.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html"
+    }],
     "criteria":"Patterns as well as colour difference is used to convey information in visual presentations.",
     "tags":"color, colour, text, patterns, decoration",
     "departments":["Design","Front-end"],
@@ -1241,7 +1697,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.3.3",
+    "refs":[{
+      "number":"1.3.3",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-understanding.html"
+    }],
     "criteria":"If sensory characteristics such as size, shape or location are referred to, a text or structural alternative means of identification is provided.",
     "tags":"color, colour, text",
     "departments":["Design","Front-end"],
@@ -1249,7 +1708,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"1.3.3",
+    "refs":[{
+      "number":"1.3.3",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-understanding.html"
+    }],
     "criteria":"Variations of text formatting that convey information, have text alternatives.",
     "tags":"color, colour, text",
     "departments":["Design","Front-end"],
@@ -1257,7 +1719,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"4.1.1",
+    "refs":[{
+      "number":"4.1.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html"
+    }],
     "criteria":"HTML documents have a valid DOCTYPE.",
     "tags":"markp, html, validation",
     "departments":["Front-end"],
@@ -1265,7 +1730,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"4.1.1",
+    "refs":[{
+      "number":"4.1.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html"
+    }],
     "criteria":"HTML documents have a valid Character Encoding specification (often CHARSET).",
     "tags":"markp, html, validation, character encoding",
     "departments":["Front-end"],
@@ -1273,7 +1741,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"4.1.1",
+    "refs":[{
+      "number":"4.1.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html"
+    }],
     "criteria":"Elements are properly nested.",
     "tags":"markp, html, validation",
     "departments":["Front-end"],
@@ -1281,7 +1752,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"4.1.1",
+    "refs":[{
+      "number":"4.1.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html"
+    }],
     "criteria":"Start and end tags are complete and correct for the DOCTYPE.",
     "tags":"markp, html, validation",
     "departments":["Front-end"],
@@ -1289,7 +1763,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"4.1.1",
+    "refs":[{
+      "number":"4.1.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html"
+    }],
     "criteria":"ID attributes have unique values.",
     "tags":"markp, html, validation, IDs",
     "departments":["Front-end","Back-end"],
@@ -1297,7 +1774,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"4.1.1",
+    "refs":[{
+      "number":"4.1.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html"
+    }],
     "criteria":"All attributes used in a single element are unique.",
     "tags":"markp, html, validation, attributes",
     "departments":["Front-end","Back-end"],
@@ -1305,7 +1785,10 @@
   },
   {
     "levels":["A","AA","AAA"],
-    "ref":"4.1.1",
+    "refs":[{
+      "number":"4.1.1",
+      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html"
+    }],
     "criteria":"Attributes have matching start and end quotes.",
     "tags":"markp, html, validation, attributes",
     "departments":["Front-end","Back-end"],
@@ -1313,7 +1796,7 @@
   },
   {
     "levels":["Zone"],
-    "ref":null,
+    "refs":[],
     "criteria":"HTML5 elements are not used for layout and so do not fail in non-html5 browsers with no JavaScript",
     "tags":"markp, html, html5, validation, JavaScript",
     "departments":["Front-end"],
@@ -1321,7 +1804,7 @@
   },
   {
     "levels":["Zone"],
-    "ref":null,
+    "refs":[],
     "criteria":"The website should include an accessibility statement",
     "tags":"text, content, accessibility statement",
     "departments":["Editorial"],

@@ -80,10 +80,27 @@
     }
 }
 
-.criteria__ref {
-    margin-top: .25rem;
+.criteria__refs {
+    display: inline-block;
+}
 
-    color: #989898;
+.criteria__ref {
+    display: inline-block;
+    margin-top: .25rem;
+    color: #999;
+    position: relative;
+
+    &:last-child:before {
+        content: "\00A0\0026\00A0";  // NBSpace Ampersand NBSpace
+    }
+
+    &:before {
+        content: "\002C\00A0"; // Comma NBSpace
+    }
+
+    &:first-child:before {
+        display: none;
+    }
 }
 
 .criteria__departments {
