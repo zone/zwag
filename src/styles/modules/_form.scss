@@ -9,6 +9,11 @@
     @media (min-width: 40em) {
         width: 50%;
     }
+
+    label {
+        position: absolute;
+        left: -999em;
+    }
 }
 
 input[type="text"],

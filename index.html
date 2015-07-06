@@ -29,14 +29,25 @@
 
                 <div class="content" ng-cloak>
                     <div class="form" aria-label="Filter">
-                        <p><input type="text" placeholder="Enter a search term e.g. forms" ng-model="search.criteria" aria-label="Enter a search term e.g. form"></p>
-                        <p aria-label="Filter by"><span class="select"><select ng-model="search.levels">
-                            <option value="">Any level</option>
-                            <option ng-repeat="level in levels" value="{{level}}">{{level}}</option>
-                        </select></span><span class="select"><select ng-model="search.departments">
-                            <option value="">Any department</option>
-                            <option ng-repeat="department in departments" value="{{department}}">{{department}}</option>
-                        </select></span></p>
+                        <p>
+                        <label for="form-search-free-text">Search by term</label>
+                        <input type="text" placeholder="Enter a search term e.g. forms" ng-model="search.criteria" aria-label="Enter a search term e.g. form" id="form-search-free-text"></p>
+                        <p aria-label="Filter by">
+                            <span class="select">
+                                <label for="form-search-level">Search by priority level</label>
+                                <select ng-model="search.levels" id="form-search-level">
+                                    <option value="">Any level</option>
+                                    <option ng-repeat="level in levels" value="{{level}}">{{level}}</option>
+                                </select>
+                            </span>
+                            <span class="select">
+                            <label for="form-search-dept">Search by skill or department</label>
+                                <select ng-model="search.departments" id="form-search-dept">
+                                    <option value="">Any department</option>
+                                    <option ng-repeat="department in departments" value="{{department}}">{{department}}</option>
+                                </select>
+                            </span>
+                        </p>
                     </div>
 
                     <ul role="navigation" aria-label="Pagination" class="pagination" ng-show="totalItems">
@@ -56,7 +67,9 @@
                             <div ng-show="item.refs.length">
                                 Spec Ref: 
                                 <ul class="criteria__refs">
-                                    <li ng-repeat="ref in item.refs" ng-switch="ref.url" class="criteria__ref"><a href="{{ref.url}}" ng-switch-default>{{ref.number}}</a><span ng-switch-when="">{{ref.number}}</span></li>
+                                    <li ng-repeat="ref in item.refs" ng-switch="ref.url" class="criteria__ref">
+                                        <a href="{{ref.url}}" ng-switch-default target="_blank">{{ref.number}}</a><span ng-switch-when="">{{ref.number}}</span>
+                                    </li>
                                 </ul>
                             </div>
 
@@ -84,8 +97,9 @@
 
                     <footer class="app__footer">
                         <p>JavaScript is required to load this guide.<br>Alternatively, you can <a href="data.json">download the guide</a> as JSON.</p>
+                        <p>Conceived and produced by <a href="http://www.thisiszone.com" target="_blank">Zone</a></p>
                         <h3 class="app__sub-title">Disclaimer</h3>
-                        <p>This web app does is not a substitute for <a href="http://www.w3.org/TR/WCAG20/">the official W3C Web Content Accessibility Guidelines</a>.</p>
+                        <p>This web app is not a substitute for the <a href="http://www.w3.org/TR/WCAG20/" target="_blank">W3C Web Content Accessibility Guidelines</a>.</p>
                     </footer>
                 </div>
             </div>

@@ -122,7 +122,7 @@
     }],
     "criteria":"Data tables have separate cells for individual data items. ",
     "tags":"data, tables, tabular data, structure",
-    "departments":["Front-end"],
+    "departments":["Front-end", "Back-end"],
     "url":""
   },
   {
