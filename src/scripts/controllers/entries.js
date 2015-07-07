@@ -2,7 +2,7 @@
 
 var angular = require('angular');
 
-module.exports = function($scope, $http, filterFilter) {
+module.exports = function($scope, $http, $window, filterFilter) {
 
     var loader = document.querySelector('.app__loader');
 
@@ -66,6 +66,11 @@ module.exports = function($scope, $http, filterFilter) {
         }, true);
 
     });
+
+    $scope.visit = function ($event, path) {
+        $event.preventDefault();
+        $window.open(path, '_blank');
+    };
 
     $scope.resetFilters = function () {
         // needs to be a function or it won't trigger a $watch

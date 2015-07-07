@@ -68,7 +68,7 @@
                                 Spec Ref: 
                                 <ul class="criteria__refs">
                                     <li data-ng-repeat="ref in item.refs" data-ng-switch="ref.url" class="criteria__ref">
-                                        <a href="{{ref.url}}" data-ng-switch-default target="_blank">{{ref.number}}</a><span data-ng-switch-when="">{{ref.number}}</span>
+                                        <a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/Overview.html" data-ng-click="visit($event, ref.url)" data-ng-switch-default target="_blank">{{ref.number}}</a><span data-ng-switch-when="">{{ref.number}}</span>
                                     </li>
                                 </ul>
                             </div>
