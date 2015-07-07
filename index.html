@@ -50,15 +50,17 @@
                         </p>
                     </div>
 
-                    <ul role="navigation" aria-label="Pagination" class="pagination" data-ng-show="totalItems">
-                        <li>
-                            <button type="button" class="pagination__button pagination__button--prev" data-ng-disabled="currentPage == 1" data-ng-click="currentPage=currentPage-1">Previous</button>
-                        </li>
-                        <li class="pagination__location">Page {{currentPage}} of {{noOfPages}}<br><span class="pagination__matches">{{totalItems}} matching {{ totalItems == 1 ? 'item' : 'items' }}</span></li>
-                        <li>
-                            <button type="button" class="pagination__button pagination__button--next" data-ng-disabled="currentPage >= noOfPages" data-ng-click="currentPage = currentPage+1">Next</button>
-                        </li>
-                    </ul>
+                    <nav aria-label="Pagination">
+                        <ul class="pagination" data-ng-show="totalItems">
+                            <li>
+                                <button type="button" class="pagination__button pagination__button--prev" data-ng-disabled="currentPage == 1" data-ng-click="currentPage=currentPage-1">Previous</button>
+                            </li>
+                            <li class="pagination__location">Page {{currentPage}} of {{noOfPages}}<br><span class="pagination__matches">{{totalItems}} matching {{ totalItems == 1 ? 'item' : 'items' }}</span></li>
+                            <li>
+                                <button type="button" class="pagination__button pagination__button--next" data-ng-disabled="currentPage >= noOfPages" data-ng-click="currentPage = currentPage+1">Next</button>
+                            </li>
+                        </ul>
+                    </nav>
 
                     <div class="results" aria-live="polite">
                         <article class="criteria" data-ng-repeat="item in filteredEntries = (entries | filter:search.levels:exactOrEmpty | filter:search) | startFrom:(currentPage-1)*entryLimit | limitTo:entryLimit">
@@ -85,15 +87,17 @@
                         <p class="results__empty" data-ng-hide="totalItems">Sorry, no criteria found. <button type="button" data-ng-click="resetFilters()">Clear the filters?</button></p>
                     </div>
 
-                    <ul role="navigation" aria-label="Pagination" class="pagination" data-ng-show="totalItems">
-                        <li>
-                            <button type="button" class="pagination__button pagination__button--prev" data-ng-disabled="currentPage == 1" data-ng-click="currentPage=currentPage-1">Previous</button>
-                        </li>
-                        <li class="pagination__location">Page {{currentPage}} of {{noOfPages}}<br><span class="pagination__matches">{{totalItems}} matching {{ totalItems == 1 ? 'item' : 'items' }}</span></li>
-                        <li>
-                            <button type="button" class="pagination__button pagination__button--next" data-ng-disabled="currentPage >= noOfPages" data-ng-click="currentPage = currentPage+1">Next</button>
-                        </li>
-                    </ul>
+                    <nav aria-label="Pagination">
+                        <ul class="pagination" data-ng-show="totalItems">
+                            <li>
+                                <button type="button" class="pagination__button pagination__button--prev" data-ng-disabled="currentPage == 1" data-ng-click="currentPage=currentPage-1">Previous</button>
+                            </li>
+                            <li class="pagination__location">Page {{currentPage}} of {{noOfPages}}<br><span class="pagination__matches">{{totalItems}} matching {{ totalItems == 1 ? 'item' : 'items' }}</span></li>
+                            <li>
+                                <button type="button" class="pagination__button pagination__button--next" data-ng-disabled="currentPage >= noOfPages" data-ng-click="currentPage = currentPage+1">Next</button>
+                            </li>
+                        </ul>
+                    </nav>
 
                     <footer class="app__footer">
                         <p>JavaScript is required to load this guide.<br>Alternatively, you can <a href="data.json">download the guide</a> as JSON.</p>
