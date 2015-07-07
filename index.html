@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<!--[if lt IE 9]><html lang="en" ng-app="accessibilityApp" class="ie-old"><![endif]-->
-<!--[if IE 9]><html lang="en" ng-app="accessibilityApp" class="ie-9"><![endif]-->
-<!--[if gt IE 9]><!--><html lang="en" ng-app="accessibilityApp"><!--<![endif]-->
+<!--[if lt IE 9]><html lang="en" data-ng-app="accessibilityApp" class="ie-old"><![endif]-->
+<!--[if IE 9]><html lang="en" data-ng-app="accessibilityApp" class="ie-9"><![endif]-->
+<!--[if gt IE 9]><!--><html lang="en" data-ng-app="accessibilityApp"><!--<![endif]-->
     <head>
         <title>Accessibility - Zone</title>
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" type="text/css">
@@ -20,78 +20,78 @@
             <a href="http://thisiszone.com" class="app__logo" title="Visit the Zone website">
                 <img src="images/zone-logo.svg" alt="Zone" width="70" height="70">
             </a>
-            <div class="app" ng-controller="EntriesCtrl">
+            <div class="app" data-ng-controller="EntriesCtrl">
                 <h1 class="app__title">Easy lookup <strong>web accessibility guidelines</strong></h1>
 
                 <p class="app__intro">A web app which provides succinct interpretations of the WCAG 2.0 spec with optional filters for priority level and discipline. We have included some of our own criterion too and welcome any suggestions and feedback.</p>
 
                 <div class="app__loader">Loading guide data...</div>
 
-                <div class="content" ng-cloak>
+                <div class="content" data-ng-cloak>
                     <div class="form" aria-label="Filter">
                         <p>
                         <label for="form-search-free-text">Search by term</label>
-                        <input type="text" placeholder="Enter a search term e.g. forms" ng-model="search.criteria" aria-label="Enter a search term e.g. form" id="form-search-free-text"></p>
+                        <input type="text" placeholder="Enter a search term e.g. forms" data-ng-model="search.criteria" aria-label="Enter a search term e.g. form" id="form-search-free-text"></p>
                         <p aria-label="Filter by">
                             <span class="select">
                                 <label for="form-search-level">Search by priority level</label>
-                                <select ng-model="search.levels" id="form-search-level">
+                                <select data-ng-model="search.levels" id="form-search-level">
                                     <option value="">Any level</option>
-                                    <option ng-repeat="level in levels" value="{{level}}">{{level}}</option>
+                                    <option data-ng-repeat="level in levels" value="{{level}}">{{level}}</option>
                                 </select>
                             </span>
                             <span class="select">
                             <label for="form-search-dept">Search by skill or department</label>
-                                <select ng-model="search.departments" id="form-search-dept">
+                                <select data-ng-model="search.departments" id="form-search-dept">
                                     <option value="">Any department</option>
-                                    <option ng-repeat="department in departments" value="{{department}}">{{department}}</option>
+                                    <option data-ng-repeat="department in departments" value="{{department}}">{{department}}</option>
                                 </select>
                             </span>
                         </p>
                     </div>
 
-                    <ul role="navigation" aria-label="Pagination" class="pagination" ng-show="totalItems">
+                    <ul role="navigation" aria-label="Pagination" class="pagination" data-ng-show="totalItems">
                         <li>
-                            <button type="button" class="pagination__button pagination__button--prev" ng-disabled="currentPage == 1" ng-click="currentPage=currentPage-1">Previous</button>
+                            <button type="button" class="pagination__button pagination__button--prev" data-ng-disabled="currentPage == 1" data-ng-click="currentPage=currentPage-1">Previous</button>
                         </li>
                         <li class="pagination__location">Page {{currentPage}} of {{noOfPages}}<br><span class="pagination__matches">{{totalItems}} matching {{ totalItems == 1 ? 'item' : 'items' }}</span></li>
                         <li>
-                            <button type="button" class="pagination__button pagination__button--next" ng-disabled="currentPage >= noOfPages" ng-click="currentPage = currentPage+1">Next</button>
+                            <button type="button" class="pagination__button pagination__button--next" data-ng-disabled="currentPage >= noOfPages" data-ng-click="currentPage = currentPage+1">Next</button>
                         </li>
                     </ul>
 
                     <div class="results" aria-live="polite">
-                        <article class="criteria" ng-repeat="item in filteredEntries = (entries | filter:search.levels:exactOrEmpty | filter:search) | startFrom:(currentPage-1)*entryLimit | limitTo:entryLimit">
-                            <h2 class="criteria__description" ng-bind-html="item.criteria | highlight:search.criteria">{{item.criteria}}</h2>
+                        <article class="criteria" data-ng-repeat="item in filteredEntries = (entries | filter:search.levels:exactOrEmpty | filter:search) | startFrom:(currentPage-1)*entryLimit | limitTo:entryLimit">
+                            <h2 class="criteria__description" data-ng-bind-html="item.criteria | highlight:search.criteria">{{item.criteria}}</h2>
                             
-                            <div ng-show="item.refs.length">
+                            <div data-ng-show="item.refs.length">
                                 Spec Ref: 
                                 <ul class="criteria__refs">
-                                    <li ng-repeat="ref in item.refs" ng-switch="ref.url" class="criteria__ref">
-                                        <a href="{{ref.url}}" ng-switch-default target="_blank">{{ref.number}}</a><span ng-switch-when="">{{ref.number}}</span>
+                                    <li data-ng-repeat="ref in item.refs" data-ng-switch="ref.url" class="criteria__ref">
+                                        <a href="{{ref.url}}" data-ng-switch-default target="_blank">{{ref.number}}</a><span data-ng-switch-when="">{{ref.number}}</span>
                                     </li>
                                 </ul>
                             </div>
 
                             <ul class="tags criteria__departments">
-                                <li ng-repeat="department in item.departments" class="criteria__department">{{department}}</li>
+                                <li data-ng-repeat="department in item.departments" class="criteria__department">{{department}}</li>
                             </ul>
 
                             <ul class="criteria__levels">
-                                <li ng-repeat="level in item.levels" class="criteria__level criteria__level--{{level | lowercase}}">{{level}}</li>
+                                <li data-ng-repeat="level in item.levels" class="criteria__level criteria__level--{{level | lowercase}}">{{level}}</li>
                             </ul>
                         </article>
 
-                        <p class="results__empty" ng-hide="totalItems">Sorry, no criteria found. <button type="button" ng-click="resetFilters()">Clear the filters?</button></p>
+                        <p class="results__empty" data-ng-hide="totalItems">Sorry, no criteria found. <button type="button" data-ng-click="resetFilters()">Clear the filters?</button></p>
                     </div>
 
-                    <ul role="navigation" aria-label="Pagination" class="pagination" ng-show="totalItems">
+                    <ul role="navigation" aria-label="Pagination" class="pagination" data-ng-show="totalItems">
                         <li>
-                            <button type="button" class="pagination__button pagination__button--prev" ng-disabled="currentPage == 1" ng-click="currentPage=currentPage-1">Previous</button>
+                            <button type="button" class="pagination__button pagination__button--prev" data-ng-disabled="currentPage == 1" data-ng-click="currentPage=currentPage-1">Previous</button>
                         </li>
                         <li class="pagination__location">Page {{currentPage}} of {{noOfPages}}<br><span class="pagination__matches">{{totalItems}} matching {{ totalItems == 1 ? 'item' : 'items' }}</span></li>
                         <li>
-                            <button type="button" class="pagination__button pagination__button--next" ng-disabled="currentPage >= noOfPages" ng-click="currentPage = currentPage+1">Next</button>
+                            <button type="button" class="pagination__button pagination__button--next" data-ng-disabled="currentPage >= noOfPages" data-ng-click="currentPage = currentPage+1">Next</button>
                         </li>
                     </ul>
 
