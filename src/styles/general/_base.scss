@@ -67,3 +67,8 @@ p:last-child {
     background-color: $color-aqua;
     color: #fff;
 }
+
+.visually-hidden {
+    position: absolute;
+    left: -999em;
+}
