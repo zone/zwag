@@ -67,7 +67,7 @@
                         <p aria-label="Filter by">
                             <span class="select">
                                 <label for="form-search-level">Search by priority level</label>
-                                <select data-ng-model="search.levels" id="form-search-level">
+                                <select data-ng-model="search.level" id="form-search-level">
                                     <option value="">Any level</option>
                                     <option data-ng-repeat="level in levels" value="{{level}}">{{level}}</option>
                                 </select>
@@ -95,7 +95,7 @@
                     </nav>
 
                     <div class="results" aria-live="polite">
-                        <article class="criteria" data-ng-repeat="item in filteredEntries = (entries | filter:search.levels:exactOrEmpty | filter:search) | startFrom:(currentPage-1)*entryLimit | limitTo:entryLimit">
+                        <article class="criteria" data-ng-repeat="item in filteredEntries = (entries | filter:search | filter:search.level:true) | startFrom:(currentPage-1)*entryLimit | limitTo:entryLimit">
                             <h2 class="criteria__description" data-ng-bind-html="item.criteria | highlight:search.criteria">{{item.criteria}}</h2>
                             
                             <div data-ng-show="item.refs.length">
@@ -112,7 +112,7 @@
                             </ul>
 
                             <ul class="criteria__levels">
-                                <li data-ng-repeat="level in item.levels" class="criteria__level criteria__level--{{level | lowercase}}">{{level}}</li>
+                                <li class="criteria__level criteria__level--{{item.level | lowercase}}">{{item.level}}</li>
                             </ul>
                         </article>
 
