@@ -6,7 +6,7 @@
       "number":"1.3.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
       }],
-    "criteria":"Text that is styled as headings uses heading markup.",
+    "criteria":"Heading markup is used for content fashioned as headings.",
     "tags":"",
     "departments":["Front-end"],
     "url":""
@@ -18,7 +18,7 @@
       "number":"1.3.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
     }],
-    "criteria":"Only text that heads up content has been coded as headings.",
+    "criteria":"Coded headings consist solely of content which governs a main body of text.",
     "tags":"headings, heading, content, structure",
     "departments":["Front-end"],
     "url":""
@@ -30,7 +30,7 @@
       "number":"1.3.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
     }],
-    "criteria":"Heading levels have been applied in a logical sequence.\n",
+    "criteria":"A rational order has been imposed on heading levels.\n",
     "tags":"headings, heading, content, structure",
     "departments":["Front-end"],
     "url":""
@@ -39,7 +39,7 @@
     "level":"Zone",
     "levels":["Zone"],
     "refs":[],
-    "criteria":"H1 identifies the main content heading, and is positioned immediately before the unique page content.",
+    "criteria":"H1 is placed directly before the unique page content, and signifies the main content heading",
     "tags":"headings, heading, content, structure",
     "departments":["Front-end"],
     "url":""
@@ -51,7 +51,7 @@
       "number":"1.3.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
     }],
-    "criteria":"Heading markup precedes, rather than encloses, subordinate content.",
+    "criteria":"Subordinate text follows heading markup rather than being encompassed by it.",
     "tags":"headings, heading, content, structure",
     "departments":["Front-end"],
     "url":""
@@ -63,7 +63,7 @@
       "number":"2.4.6",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html"
     }],
-    "criteria":"Headings are descriptive and accurate.",
+    "criteria":"Headings are illustrative and exact.",
     "tags":"headings, heading, content, structure",
     "departments":["Editorial"],
     "url":""
@@ -75,7 +75,7 @@
       "number":"2.4.2",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html"
     }],
-    "criteria":"All pages (including those within frames) have page titles.",
+    "criteria":"There is a page title for every page, even those inside frames.",
     "tags":"headings, heading, content, titles, structure",
     "departments":["Editorial"],
     "url":""
@@ -87,7 +87,7 @@
       "number":"2.4.2",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html"
     }],
-    "criteria":"Each page title is unique, unless it is the result of a user search.",
+    "criteria":"Apart from the outcomes of user searches, all page titles are unique.",
     "tags":"headings, heading, content, titles, structure",
     "departments":["Editorial"],
     "url":""
@@ -99,7 +99,7 @@
       "number":"2.4.2",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html"
     }],
-    "criteria":"Page titles describe the topic or purpose of the page.",
+    "criteria":"Page titles illustrate the theme or objective of the page.",
     "tags":"headings, heading, content, titles, structure",
     "departments":["Editorial"],
     "url":""
@@ -120,7 +120,7 @@
       "number":"1.3.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
     }],
-    "criteria":"Where tabular layout is required to understand data, data tables are used correctly.",
+    "criteria":"Data tables are applied properly in situations where tabular layout is necessary for the comprehension of data.",
     "tags":"data, tables, tabular data, structure",
     "departments":["Front-end"],
     "url":""
@@ -132,7 +132,7 @@
       "number":"1.3.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
     }],
-    "criteria":"Data tables have separate cells for individual data items. ",
+    "criteria":"Distinct cells are used in data table for separate data items. ",
     "tags":"data, tables, tabular data, structure",
     "departments":["Front-end", "Back-end"],
     "url":""
@@ -144,7 +144,7 @@
       "number":"1.3.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
     }],
-    "criteria":"Simple data table headers are correctly marked up using TH elements.",
+    "criteria":"TH elements are properly used to mark up sinple data table headers.",
     "tags":"data, tables, tabular data, structure",
     "departments":["Front-end"],
     "url":""
@@ -156,7 +156,7 @@
       "number":"1.3.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
     }],
-    "criteria":"Complex data tables have appropriate SCOPE, ID and HEADERS markup.",
+    "criteria":"Fitting SCOPE, ID and HEADERS markup are used in complex data tables.",
     "tags":"data, tables, tabular data, structure",
     "departments":["Front-end"],
     "url":""
@@ -168,7 +168,7 @@
       "number":"1.3.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
     }],
-    "criteria":"SUMMARY attributes and/or CAPTION elements are used correctly.",
+    "criteria":"The proper usage of SUMMARY attributes and/or CAPTION elements is effected.",
     "tags":"data, tables, tabular data, structure",
     "departments":["Front-end"],
     "url":""
@@ -180,7 +180,7 @@
       "number":"1.3.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
     }],
-    "criteria":"List elements OL, UL and DL are used only for appropriate lists.",
+    "criteria":"List elements OL, UL and DL are solely employed in the relevent lists.",
     "tags":"Lists, blockquotes, structure, strong, emphasis, structure",
     "departments":["Front-end"],
     "url":""
@@ -192,7 +192,7 @@
       "number":"1.3.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
     }],
-    "criteria":"Where items are presented in a visual list, list markup is used.",
+    "criteria":"List markup is employed wherever elements are displayed in a visual list.",
     "tags":"Lists, blockquotes, structure, strong, emphasis, structure",
     "departments":["Front-end"],
     "url":""
@@ -204,7 +204,7 @@
       "number":"1.3.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
     }],
-    "criteria":"BLOCKQUOTE and CITE elements are used for quotations only.",
+    "criteria":"BLOCKQUOTE and CITE elements are solely employed for use in quotations.",
     "tags":"Lists, blockquotes, structure, strong, emphasis, structure",
     "departments":["Front-end"],
     "url":""
@@ -216,7 +216,7 @@
       "number":"1.3.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
     }],
-    "criteria":"Where quotations are cited, BLOCKQUOTE elements are used.",
+    "criteria":"BLOCKQUOTE elements are employed wherever citaions are quoted.",
     "tags":"Lists, blockquotes, structure, strong, emphasis, structure",
     "departments":["Front-end"],
     "url":""
@@ -228,7 +228,7 @@
       "number":"3.1.4",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-located.html"
     }],
-    "criteria":"Abbreviations are expanded in either text or markup, but not both for the same instance.",
+    "criteria":"Abbreviations are detailed upon either in text or markup, but never text and markup on the same occasion.",
     "tags":"Lists, blockquotes, structure, strong, emphasis, structure",
     "departments":["Front-end"],
     "url":""
@@ -240,7 +240,7 @@
       "number":"1.3.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
     }],
-    "criteria":"EM or STRONG elements are used for emphasis.",
+    "criteria":"EM or STRONG elements are employed for the purposes of stress.",
     "tags":"Lists, blockquotes, structure, strong, emphasis, structure",
     "departments":["Front-end"],
     "url":""
@@ -261,7 +261,7 @@
       "number":"2.4.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html"
     }],
-    "criteria":"Blocks of repeated content can be bypassed by skip links or provided structure.",
+    "criteria":"Skip links or provided structure can be used to skip sections of recurring text.",
     "tags":"Navigation, skip links, links, structure",
     "departments":["UX"],
     "url":""
@@ -282,7 +282,7 @@
       "number":"2.4.5",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-mult-loc.html"
     }],
-    "criteria":"More than one way to navigate between web pages is provided.",
+    "criteria":"Multiple means of travelling from one web page to another are given.",
     "tags":"Navigation, skip links, links, structure",
     "departments":["UX"],
     "url":""
@@ -294,7 +294,7 @@
       "number":"3.2.3",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html"
     }],
-    "criteria":"Navigational segments repeated on multiple Web pages occur in the same relative order each time they are used, unless the user initiates the change.",
+    "criteria":"Sections for navigation that recur on more than one Web page appear in an identical relative order whenever they are employed, except when the adjustment is introduced by the user.",
     "tags":"Navigation, skip links, links, structure",
     "departments":["Front-end"],
     "url":""
@@ -306,7 +306,7 @@
       "number":"1.4.3",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html"
     }],
-    "criteria":"Contrast ratios achieve the minimum threshold or a style switch option with good contrast is provided.",
+    "criteria":"The minimum threshold is reached by contrast ratios or else a style switch choice with satisfactory contrast is given.",
     "tags":"Foreground, background, colour, color, color contrast, design",
     "departments":["Design"],
     "url":""
@@ -318,7 +318,7 @@
       "number":"1.4.3",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html"
     }],
-    "criteria":"Colour is defined for both background and text, or for neither.",
+    "criteria":"Either background and text have their colour specified, or neither do.",
     "tags":"Foreground, background, colour, color, color contrast, design",
     "departments":["Front-end"],
     "url":""
@@ -330,7 +330,7 @@
       "number":"1.4.3",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html"
     }],
-    "criteria":"Colour for text and background is defined in the same way, (both in CSS or both in HTML).",
+    "criteria":"Both text and background colour is specified in an identical manner: either both in CSS or HTML.",
     "tags":"Foreground, background, colour, color, color contrast, design",
     "departments":["Front-end"],
     "url":""
@@ -342,7 +342,7 @@
       "number":"1.4.3",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html"
     }],
-    "criteria":"Images of text have a solid background colour.",
+    "criteria":"A block background colour is used for images of text.",
     "tags":"Foreground, background, colour, color, color contrast, design",
     "departments":["Front-end"],
     "url":""
@@ -354,7 +354,7 @@
       "number":"1.4.3",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html"
     }],
-    "criteria":"Background images provide good contrast for foreground text.",
+    "criteria":"Pictures in the background proffer a satisfactory contrast to foreground content.",
     "tags":"Foreground, background, colour, color, color contrast, design",
     "departments":["Design"],
     "url":""
@@ -366,7 +366,7 @@
       "number":"1.4.4",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html"
     }],
-    "criteria":"Resizing up to 200% is possible, either natively from browser controls or with the aid of application or site tools.",
+    "criteria":"It is feasible to change the size of text up to twice its original proportions, either using browser controls, or with means provided by the site or application.",
     "tags":"Text, text sizing, resizing, design",
     "departments":["Front-end"],
     "url":""
@@ -378,7 +378,7 @@
       "number":"1.4.4",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html"
     }],
-    "criteria":"Text can be resized up to 200% without any cropping, truncating, overlapping, or loss of any information.",
+    "criteria":"It is possible to change the size of text up to twice its orginal proportions with no cropping, shortening, overlapping, and without losing any information.",
     "tags":"Text, text sizing, resizing, design",
     "departments":["Front-end","Design"],
     "url":""
@@ -390,7 +390,7 @@
       "number":"1.4.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html"
     }],
-    "criteria":"Link text is distinguished from plain text by underline or other styling in addition to any colour difference. ",
+    "criteria":"Text used in links is differentiated from plain text with a line underneath or other fashioning as well any change in colour. ",
     "tags":"Navigation, skip links, links, design",
     "departments":["Front-end","Design"],
     "url":""
@@ -402,7 +402,7 @@
       "number":"2.4.7",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html"
     }],
-    "criteria":"Links all have visible keyboard focus indicators.",
+    "criteria":"Clear keyboard focus indicators are used for all links.",
     "tags":"Navigation, skip links, links, design",
     "departments":["Front-end"],
     "url":""
@@ -414,7 +414,7 @@
       "number":"2.4.7",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html"
     }],
-    "criteria":"Form controls all have visible keyboard focus indicators.",
+    "criteria":"Clear keyboard focus indicators are used for all form controls.",
     "tags":"Navigation, skip links, links, design",
     "departments":["Front-end"],
     "url":""
@@ -435,7 +435,7 @@
       "number":"1.3.2",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-sequence.html"
     }],
-    "criteria":"CSS styling can be removed, without making the reading order or relationship sequence of content illogical. ",
+    "criteria":"It is possible to take away CSS styling without the structure and sequence of the information losing its sense.",
     "tags":"Layout, mark up, order, ordering, reading order, design",
     "departments":["Front-end"],
     "url":""
@@ -447,7 +447,7 @@
       "number":"1.3.2",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-sequence.html"
     }],
-    "criteria":"Layout tables can be linearised, without making the reading order or relationship sequence of content illogical.",
+    "criteria":".It is possible to linearise layout tables without the structure and sequence of the information losing its sense.",
     "tags":"Layout, mark up, order, ordering, reading order, design",
     "departments":["Front-end"],
     "url":""
@@ -459,7 +459,7 @@
       "number":"1.3.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
     }],
-    "criteria":"Layout tables are free of data table elements and attributes.  ",
+    "criteria":"THere are no data table elements nor attributes in layout tables.  ",
     "tags":"Layout, mark up, order, ordering, reading order, design",
     "departments":["Front-end"],
     "url":""
@@ -471,7 +471,7 @@
       "number":"4.1.2",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html"
     }],
-    "criteria":"Frames have descriptive title attributes.",
+    "criteria":"There are illustrative title attributes for frames.",
     "tags":"Iframes, frames, design",
     "departments":["Front-end"],
     "url":""
@@ -483,7 +483,7 @@
       "number":"4.1.2",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html"
     }],
-    "criteria":"IFRAME elements have descriptive title attributes.",
+    "criteria":"There are illustrative title attributes for IFRAME elements.",
     "tags":"Iframes, frames, design",
     "departments":["Front-end"],
     "url":""
@@ -507,7 +507,7 @@
       "number":"1.1.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
     }],
-    "criteria":"Linked images have alternative text concisely and accurately identifying the destination of the link. ",
+    "criteria":"There is alternative text for all linked images which briefly and precisely describes the end location of the link. ",
     "tags":"Non-text content, non-text, images, media",
     "departments":["Editorial"],
     "url":""
@@ -519,7 +519,7 @@
       "number":"1.1.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
     }],
-    "criteria":"Informative images have alternative text accurately conveying equivalent information.",
+    "criteria":"There is alternative text for all informative images which precisely transmits the same information.",
     "tags":"Non-text content, non-text, images, media",
     "departments":["Editorial"],
     "url":""
@@ -531,7 +531,7 @@
       "number":"1.1.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
     }],
-    "criteria":"Images of text have alternative text accurately replicating visible text. ",
+    "criteria":"There is alternative text for all images of text which precisely reproduces the visible text. ",
     "tags":"Non-text content, non-text, images, media",
     "departments":["Editorial"],
     "url":""
@@ -543,7 +543,7 @@
       "number":"1.1.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
     }],
-    "criteria":"Decorative, formatting or invisible images have empty ALT attributes.",
+    "criteria":"There are empty ALT attributes for images that are solely ornamental, not visible or for the purposes of formatting only.",
     "tags":"Non-text content, non-text, images, media",
     "departments":["Front-end","Editorial"],
     "url":""
@@ -555,7 +555,7 @@
       "number":"1.1.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
     }],
-    "criteria":"Complex images, such as graphs and diagrams have alternative text concisely identifying the image and the location of its long description.",
+    "criteria":"There is alternative text briefly determining the image and the placement of its long description for all complex images."
     "tags":"Non-text content, non-text, images, media",
     "departments":["Front-end","Editorial"],
     "url":""
@@ -567,7 +567,7 @@
       "number":"1.1.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
     }],
-    "criteria":"Complex images have long descriptions that convey the same information that is conveyed by the image.",
+    "criteria":"There are long descriptions transmitting the same data that is transmitted by the image for all complex images.",
     "tags":"Non-text content, non-text, images, media",
     "departments":["Front-end","Editorial"],
     "url":""
@@ -579,7 +579,7 @@
       "number":"1.1.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
     }],
-    "criteria":"LONGDESC attributes are used appropriately and accurately. ",
+    "criteria":"LONGDESC attributes are employed fittingly and correctly. ",
     "tags":"Non-text content, non-text, images, media",
     "departments":["Front-end"],
     "url":""
@@ -591,7 +591,7 @@
       "number":"1.1.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
     }],
-    "criteria":"Groups of images conveying a single piece of information, such as ranking stars, or stage progression images, have appropriate ALT attributes. ",
+    "criteria":"There are fitting ALT attributes for all groups of images transmitting an individual piece of data, such as rating stars.",
     "tags":"Non-text content, non-text, images, media",
     "departments":["Front-end"],
     "url":""
@@ -603,7 +603,7 @@
       "number":"1.1.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
     }],
-    "criteria":"Background images are only used as decoration OR replicate information that is present in text.",
+    "criteria":"Background images are solely employed as ornamention OR reproduce pre-existing data from the text.",
     "tags":"Non-text content, non-text, images, media",
     "departments":["Front-end"],
     "url":""
@@ -614,8 +614,7 @@
     "refs":[{
       "number":"1.4.5",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-text-presentation.html"
-    }],
-    "criteria":"Images of text are only used where the same presentation couldn't be achieved using text and styling.",
+    }],    "criteria":"Images of text are solely employed in cases when a similar effect could not be reached by fashioning the text.",
     "tags":"Non-text content, non-text, images, media",
     "departments":["Design"],
     "url":""
@@ -627,7 +626,7 @@
       "number":"1.4.5",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-text-presentation.html"
     }],
-    "criteria":"Images of text can be replaced or restyled using style switching functionality.",
+    "criteria":"It is possible to use style switching functionality in the place of images of text.",
     "tags":"Non-text content, non-text, images, media",
     "departments":["Front-end"],
     "url":""
@@ -639,7 +638,7 @@
       "number":"1.1.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
     }],
-    "criteria":"Image map images all have alternative text providing an accurate context for the map's AREA elements.",
+    "criteria":"There is alternative text for all image map images which gives a correct context for the AREA elements of the map.",
     "tags":"Non-text content, non-text, images, media, image maps",
     "departments":["Front-end"],
     "url":""
@@ -651,7 +650,7 @@
       "number":"1.1.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
     }],
-    "criteria":"Image map AREA elements have alternative text accurately describing the destination of links.",
+    "criteria":"There is alternative text correctly detailing the end location of links for image map AREA elements.",
     "tags":"Non-text content, non-text, images, media, image maps",
     "departments":["Front-end"],
     "url":""
@@ -672,7 +671,7 @@
       "number":"1.4.2",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-dis-audio.html"
     }],
-    "criteria":"Audio or video with sound that lasts for more than 3 seconds, is static on page load, or has a pause mechanism available at the top of the page.",
+    "criteria":"For audible or visual media with a duration of over three seconds, there is either a pause mechanism at the top of the page, or the media is static when the page is initially opened.",
     "tags":"Non-text content, non-text, images, media, audio, video",
     "departments":["Front-end"],
     "url":""
@@ -684,7 +683,7 @@
       "number":"1.1.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
     }],
-    "criteria":"Audio only has a text alternative that at least provides descriptive identification of the audio. ",
+    "criteria":"There is a text substitute for audio only that gives illustrative description of the audio as a minimum requirement.",
     "tags":"Non-text content, non-text, images, media, audio, video",
     "departments":["Editorial"],
     "url":""
@@ -696,7 +695,7 @@
       "number":"1.2.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-av-only-alt.html"
     }],
-    "criteria":"Informative audio has a text alternative that is equivalent to the audible information.",
+    "criteria":"There is a text sustitute for informative audio that performs the same role as the information on the audio.",
     "tags":"Non-text content, non-text, images, media, audio, video",
     "departments":["Editorial"],
     "url":""
@@ -708,7 +707,7 @@
       "number":"1.2.2",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-captions.html"
     }],
-    "criteria":"Audio used as an alternative to text content is clearly identified as such, and contains only information available in the primary content.",
+    "criteria":"Audio employed as the text's alternative is visibly shown to be such, and only holds data which can be found in the primary text.",
     "tags":"Non-text content, non-text, images, media, audio, video",
     "departments":["Design"],
     "url":""
@@ -720,7 +719,7 @@
       "number":"2.2.2",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-pause.html"
     }],
-    "criteria":"Auto-starting silent video that lasts for more than 5 seconds, in web pages that include other content, can be paused, stopped or hidden by the user. ",
+    "criteria":"It is possible for the user to pause, stop, or conceal any automatically starting video that has a duration of over five seconds, on a web page that includes other content.",
     "tags":"Non-text content, non-text, images, media, audio, video",
     "departments":["Front-end"],
     "url":""
@@ -732,7 +731,7 @@
       "number":"1.1.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
     }],
-    "criteria":"Silent video has a text alternative that at least provides descriptive identification of the video. ",
+    "criteria":"There is a text alternative to a video with no audio that has an illustrative description of the video as a minimum requirement.",
     "tags":"Non-text content, non-text, images, media, audio, video",
     "departments":["Front-end"],
     "url":""
@@ -744,7 +743,7 @@
       "number":"1.2.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-av-only-alt.html"
     }],
-    "criteria":"Informative silent video has a text alternative equivalent to the visible information. ",
+    "criteria":"There is a text sustitute for video with no audio that performs the same role as the information on the video.",
     "tags":"Non-text content, non-text, images, media, audio, video",
     "departments":["Editorial"],
     "url":""
@@ -756,7 +755,7 @@
       "number":"1.2.2",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-captions.html"
     }],
-    "criteria":"Multimedia has synchronised captions for audio content.",
+    "criteria":"There are synchronised captions in multimedia for any audio content.",
     "tags":"Non-text content, non-text, images, media, audio, video",
     "departments":["Front-end","Editorial"],
     "url":""
@@ -768,7 +767,7 @@
       "number":"1.2.2",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-captions.html"
     }],
-    "criteria":"Captions are complete, missing no dialogue or important sound effects.",
+    "criteria":"Captions are entire, lacking no speech or pertinent audio effects.",
     "tags":"Non-text content, non-text, images, media, audio, video",
     "departments":["Front-end","Editorial"],
     "url":""
@@ -780,7 +779,7 @@
       "number":"1.2.3",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-audio-desc.html"
     }],
-    "criteria":"Multimedia has synchronised audio description of visual information, or a full text transcription.",
+    "criteria":"There are synchronised audio descriptions in multimedia of visual data, or else a transcription of the entire content.",
     "tags":"Non-text content, non-text, images, media, audio, video",
     "departments":["Front-end","Editorial"],
     "url":""
@@ -792,7 +791,7 @@
       "number":"1.2.3",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-audio-desc.html"
     }],
-    "criteria":"Audio description or text alternatives are complete, missing no visual information evident in the video. ",
+    "criteria":"Audio description or text alternatives are entire, missing no visual information evident in the video. ",
     "tags":"Non-text content, non-text, images, media, audio, video",
     "departments":["Front-end","Editorial"],
     "url":""
@@ -804,7 +803,7 @@
       "number":"1.2.8",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-text-doc.html"
     }],
-    "criteria":"Multimedia has full text transcription, conveying both audible and visual information. ",
+    "criteria":"There is full text transcription for multimedia which transmits both audio and video information.",
     "tags":"Non-text content, non-text, images, media, audio, video",
     "departments":["Editorial"],
     "url":""
@@ -819,7 +818,7 @@
       "number":"1.2.8",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-text-doc.html"
     }],
-    "criteria":"Links to media alternatives are clearly labelled as such, positioned immediately next to the media (before embedded media, or adjacent to links that activate media players). ",
+    "criteria":"Links to alternative media place have clear labels and are placed in front of embedded media, or next to links initianting media players.",
     "tags":"Non-text content, non-text, images, media, audio, video",
     "departments":["Front-end"],
     "url":""
@@ -831,7 +830,7 @@
       "number":"1.2.3",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-audio-desc.html"
     }],
-    "criteria":"Multimedia used as an alternative to text content is clearly identified as such, and contains only information available in the primary content.",
+    "criteria":"When multimedia is used as an alternative to text conten, it is visibly shown to be such, and solely holds information present in the primary content.",
     "tags":"Non-text content, non-text, images, media, audio, video",
     "departments":["Front-end"],
     "url":""
@@ -846,7 +845,7 @@
       "number":"3.3.2",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html"
     }],
-    "criteria":"Label text is accurate and makes the control purpose or required input clear. ",
+    "criteria":"Label text is correct and renders the control purpose or required input evident. ",
     "tags":"forms, labels, inputs, groups, links",
     "departments":["Front-end"],
     "url":""
@@ -858,7 +857,7 @@
       "number":"3.3.2",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html"
     }],
-    "criteria":"Labels are correctly positioned.",
+    "criteria":"Labels are appropriately placed.",
     "tags":"forms, labels, inputs, groups, links",
     "departments":["Front-end"],
     "url":""
@@ -870,7 +869,7 @@
       "number":"1.3.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
     }],
-    "criteria":"Form labels are explicitly associated with their related form fields.",
+    "criteria":"Form labels are clearly connected with their relavent form fields.",
     "tags":"forms, labels, inputs, groups, links",
     "departments":["Front-end"],
     "url":""
@@ -882,7 +881,7 @@
       "number":"3.3.2",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html"
     }],
-    "criteria":"Groups of controls that are visually related, have labels that identify the required input for each field. ",
+    "criteria":"Groups of controls which are connected visually have labels that denote the necessary input for every field. ",
     "tags":"forms, labels, inputs, groups, links",
     "departments":["Front-end"],
     "url":""
@@ -897,7 +896,7 @@
       "number":"3.3.2",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html"
     }],
-    "criteria":"The context or relationship between groups of form controls is identified effectively. ",
+    "criteria":"The context or connection between groups of form controls is denoted successfully. ",
     "tags":"forms, labels, inputs, groups, links",
     "departments":["Front-end"],
     "url":""
@@ -1068,7 +1067,7 @@
     "level":"Zone",
     "levels":["Zone"],
     "refs":[],
-    "criteria":"Form questions that require users to have specific sensory abilities are either optional or provide help for disabled users to successfully submit the form.",
+    "criteria":"Questions on forms that make it necessary for users to be in possession of particular sensory characteristics are either voluntary or offer assistance for disabled users to effectively complete the form.",
     "tags":"forms, labels, inputs, groups, links, errors, validation",
     "departments":["Design"],
     "url":""
@@ -1092,7 +1091,7 @@
       "number":"3.1.2",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-other-lang-id.html"
     }],
-    "criteria":"Changes of language within web pages are identified by appropriate use of the LANG attribute, except for proper names and terms adopted into the main language for the page.",
+    "criteria":"When the language changes within a web page it is denoted with the correct use of the LANG attribute, apart from proper names and terms taken into the primary language for the page.",
     "tags":"Language, text, content",
     "departments":["Front-end","Back-end"],
     "url":""
@@ -1272,7 +1271,7 @@
       "number":"2.2.2",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-pause.html"
     }],
-    "criteria":"All moving, blinking or scrolling content in web pages that include static content, either lasts for 5 seconds or less, or can be paused, stopped or hidden by the user. ",
+    "criteria":" Any content containing motion present in web pages that also have static content either has a duration of five seconds or fewer or can be stopped or concealed by the user.",
     "tags":"moving, blinking, content, flashing, media, video, carousels, UI features, animation",
     "departments":["Design","Front-end"],
     "url":""
@@ -1320,7 +1319,7 @@
       "number":"2.2.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html"
     }],
-    "criteria":"If an automatic TIMEOUT occurs the user is able to turn off or adjust the time limit, or is warned before the time expires and can extend it.",
+    "criteria":"The user can disable or change the time limit if an automatic TIMEOUT occurs, or else is notified before the time runs out and can make it longer",.
     "tags":"media, video, audio, interacton, carousels, UI features, animation, controls",
     "departments":["Front-end","Back-end"],
     "url":""
@@ -1428,7 +1427,7 @@
       "number":"1.1.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
     }],
-    "criteria":"Objects and components that are used for decoration, formatting, or are Invisible, are rendered invisible to assistive technology.",
+    "criteria":"Items and components employed as ornamention, formatting, or are Invisible, cannot be viewed by assistive technology.",
     "tags":"Non-html, keyboard, constructs, objects, interfaces",
     "departments":["Front-end"],
     "url":""
@@ -1794,7 +1793,7 @@
       "number":"3.2.2",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-unpredictable-change.html"
     }],
-    "criteria":"Users are forewarned of any change of context, such as form submission or new window opening, that will result from user input.",
+    "criteria":"Users are notified in advance of any alteration of context, for example form submission or a new window opening, which will be caused by user input.",
     "tags":"scripts, scripting, JavaScript, events, focus, forms",
     "departments":["Design","Front-end"],
     "url":""
@@ -1857,7 +1856,7 @@
       "number":"1.3.3",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-understanding.html"
     }],
-    "criteria":"If sensory characteristics such as size, shape or location are referred to, a text or structural alternative means of identification is provided.",
+    "criteria":"If attributes discernible by the senses are referred to, such as location or appearence, an alternative text or structural method of denoting them is provided.",
     "tags":"color, colour, text",
     "departments":["Design","Front-end"],
     "url":""
