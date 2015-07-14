@@ -489,18 +489,6 @@
     "url":""
   },
   {
-    "level":"SRBP",
-    "levels":["SRBP"],
-    "refs":[{
-      "number":"4.1.2",
-      "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html"
-    }],
-    "criteria":"IFRAME elements have alternative content providing a descriptive link to the page or information presented within the IFRAME.",
-    "tags":"Iframes, frames, design",
-    "departments":["Front-end"],
-    "url":""
-  },
-  {
     "level":"A",
     "levels":["A","AA","AAA"],
     "refs":[{
@@ -1742,10 +1730,10 @@
     "url":""
   },
   {
-    "level":"SRBP",
-    "levels":["SRBP"],
+    "level":"Zone",
+    "levels":["Zone"],
     "refs":[],
-    "criteria":"Cursor focus is determined by browser default behaviour or user action rather than positioning by client-side script.",
+    "criteria":"Cursor focus is set by user action or browser behaviour rather than client-side script.",
     "tags":"scripts, scripting, JavaScript, events, focus, forms",
     "departments":["Front-end"],
     "url":""
