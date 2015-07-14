@@ -555,7 +555,7 @@
       "number":"1.1.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
     }],
-    "criteria":"There is alternative text briefly determining the image and the placement of its long description for all complex images."
+    "criteria":"There is alternative text briefly determining the image and the placement of its long description for all complex images.",
     "tags":"Non-text content, non-text, images, media",
     "departments":["Front-end","Editorial"],
     "url":""
@@ -917,7 +917,7 @@
       "number":"3.3.2",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html"
     }],
-    "criteria":"Instructions for completing forms are clear and complete. ",
+    "criteria":"Instructions for completing forms are clear and complete.",
     "tags":"forms, labels, inputs, groups, links",
     "departments":["Editorial"],
     "url":""
@@ -1319,7 +1319,7 @@
       "number":"2.2.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html"
     }],
-    "criteria":"The user can disable or change the time limit if an automatic TIMEOUT occurs, or else is notified before the time runs out and can make it longer",.
+    "criteria":"The user can disable or change the time limit if an automatic TIMEOUT occurs, or else is notified before the time runs out and can make it longer.",
     "tags":"media, video, audio, interacton, carousels, UI features, animation, controls",
     "departments":["Front-end","Back-end"],
     "url":""
@@ -1331,7 +1331,7 @@
       "number":"2.2.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html"
     }],
-    "criteria":"If content is auto-updated, unless the auto-updating is part of an activity where it is essential, users can stop or control updates. ",
+    "criteria":"If content is auto-updated, unless the auto-updating is part of an activity where it is essential, users can stop or control updates.",
     "tags":"media, video, audio, interacton, carousels, UI features, animation, controls, content",
     "departments":["Front-end","Back-end"],
     "url":""
