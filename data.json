@@ -132,7 +132,7 @@
       "number":"1.3.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
     }],
-    "criteria":"Distinct cells are used in data table for separate data items. ",
+    "criteria":"Distinct cells are used in data tables for separate data items. ",
     "tags":"data, tables, tabular data, structure",
     "departments":["Front-end", "Back-end"],
     "url":""
@@ -144,7 +144,7 @@
       "number":"1.3.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
     }],
-    "criteria":"TH elements are properly used to mark up sinple data table headers.",
+    "criteria":"TH elements are properly used to mark up simple data table headers.",
     "tags":"data, tables, tabular data, structure",
     "departments":["Front-end"],
     "url":""
@@ -180,7 +180,7 @@
       "number":"1.3.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
     }],
-    "criteria":"List elements OL, UL and DL are solely employed in the relevent lists.",
+    "criteria":"List elements OL, UL and DL are solely employed in the relevant lists.",
     "tags":"Lists, blockquotes, structure, strong, emphasis, structure",
     "departments":["Front-end"],
     "url":""
@@ -216,7 +216,7 @@
       "number":"1.3.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
     }],
-    "criteria":"BLOCKQUOTE elements are employed wherever citaions are quoted.",
+    "criteria":"BLOCKQUOTE elements are employed wherever citations are quoted.",
     "tags":"Lists, blockquotes, structure, strong, emphasis, structure",
     "departments":["Front-end"],
     "url":""
@@ -378,7 +378,7 @@
       "number":"1.4.4",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html"
     }],
-    "criteria":"It is possible to change the size of text up to twice its orginal proportions with no cropping, shortening, overlapping, and without losing any information.",
+    "criteria":"It is possible to change the size of text up to twice its original proportions with no cropping, shortening, overlapping, and without losing any information.",
     "tags":"Text, text sizing, resizing, design",
     "departments":["Front-end","Design"],
     "url":""
@@ -423,7 +423,7 @@
     "level":"Zone",
     "levels":["Zone"],
     "refs":[],
-    "criteria":"The clickable area of a link has been made as large as possible within the design i.e, padding has been put on the a-tag rather than a margin when spacing out the navigation.",
+    "criteria":"The clickable area of a link has been made as large as possible within the design i.e. padding has been put on the a-tag rather than a margin when spacing out the navigation.",
     "tags":"Navigation, skip links, links, design",
     "departments":["Design","Front-end"],
     "url":""
@@ -447,7 +447,7 @@
       "number":"1.3.2",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-sequence.html"
     }],
-    "criteria":".It is possible to linearise layout tables without the structure and sequence of the information losing its sense.",
+    "criteria":"It is possible to linearise layout tables without the structure and sequence of the information losing its sense.",
     "tags":"Layout, mark up, order, ordering, reading order, design",
     "departments":["Front-end"],
     "url":""
@@ -459,7 +459,7 @@
       "number":"1.3.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
     }],
-    "criteria":"THere are no data table elements nor attributes in layout tables.  ",
+    "criteria":"There are no data table elements nor attributes in layout tables.  ",
     "tags":"Layout, mark up, order, ordering, reading order, design",
     "departments":["Front-end"],
     "url":""
@@ -591,7 +591,7 @@
       "number":"1.1.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
     }],
-    "criteria":"Background images are solely employed as ornamention OR reproduce pre-existing data from the text.",
+    "criteria":"Background images are solely employed as ornamentation OR reproduce pre-existing data from the text.",
     "tags":"Non-text content, non-text, images, media",
     "departments":["Front-end"],
     "url":""
@@ -683,7 +683,7 @@
       "number":"1.2.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-av-only-alt.html"
     }],
-    "criteria":"There is a text sustitute for informative audio that performs the same role as the information on the audio.",
+    "criteria":"There is a text substitute for informative audio that performs the same role as the information on the audio.",
     "tags":"Non-text content, non-text, images, media, audio, video",
     "departments":["Editorial"],
     "url":""
@@ -731,7 +731,7 @@
       "number":"1.2.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-av-only-alt.html"
     }],
-    "criteria":"There is a text sustitute for video with no audio that performs the same role as the information on the video.",
+    "criteria":"There is a text substitute for video with no audio that performs the same role as the information on the video.",
     "tags":"Non-text content, non-text, images, media, audio, video",
     "departments":["Editorial"],
     "url":""
@@ -806,7 +806,7 @@
       "number":"1.2.8",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-text-doc.html"
     }],
-    "criteria":"Links to alternative media place have clear labels and are placed in front of embedded media, or next to links initianting media players.",
+    "criteria":"Links to alternative media have clear labels and are placed in front of embedded media, or next to links initianting media players.",
     "tags":"Non-text content, non-text, images, media, audio, video",
     "departments":["Front-end"],
     "url":""
@@ -857,7 +857,7 @@
       "number":"1.3.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html"
     }],
-    "criteria":"Form labels are clearly connected with their relavent form fields.",
+    "criteria":"Form labels are clearly connected with their relevant form fields.",
     "tags":"forms, labels, inputs, groups, links",
     "departments":["Front-end"],
     "url":""
@@ -1013,7 +1013,7 @@
       "number":"3.3.4",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-reversible.html"
     }],
-    "criteria":"A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission. ",
+    "criteria":"A mechanism is available for reviewing, confirming, and correcting information before finalising the submission. ",
     "tags":"forms, labels, inputs, groups, links, errors, validation",
     "departments":["Front-end","Back-end"],
     "url":""
@@ -1415,7 +1415,7 @@
       "number":"1.1.1",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html"
     }],
-    "criteria":"Items and components employed as ornamention, formatting, or are Invisible, cannot be viewed by assistive technology.",
+    "criteria":"Items and components employed as ornamentation, formatting, or are Invisible, cannot be viewed by assistive technology.",
     "tags":"Non-html, keyboard, constructs, objects, interfaces",
     "departments":["Front-end"],
     "url":""
@@ -1844,7 +1844,7 @@
       "number":"1.3.3",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-understanding.html"
     }],
-    "criteria":"If attributes discernible by the senses are referred to, such as location or appearence, an alternative text or structural method of denoting them is provided.",
+    "criteria":"If attributes discernible by the senses are referred to, such as location or appearance, an alternative text or structural method of denoting them is provided.",
     "tags":"color, colour, text",
     "departments":["Design","Front-end"],
     "url":""
@@ -1949,7 +1949,7 @@
     "level":"Zone",
     "levels":["Zone"],
     "refs":[],
-    "criteria":"HTML5 elements are not used for layout and so do not fail in non-html5 browsers with no JavaScript",
+    "criteria":"HTML5 elements are not used for layout and so do not fail in non-HTML5 browsers with no JavaScript",
     "tags":"markp, html, html5, validation, JavaScript",
     "departments":["Front-end"],
     "url":""
