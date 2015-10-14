@@ -25,7 +25,9 @@
         text-indent: 4rem;
 
         &--prev:before,
-        &--next:before {
+        &--next:before,
+        &--first:before,
+        &--last:before {
             position: absolute;
             top: 0;
             left: 0;
@@ -34,8 +36,6 @@
 
             display: block;
             margin-top: 1px;
-
-            content: '\e604';
 
             font-family: 'icomoon';
             speak: none;
@@ -50,15 +50,28 @@
             transition: transform .5s;
         }
 
-        &--prev:before {
+        &--prev:before,
+        &--next:before {
+            content: '\e801';
+        }
+
+        &--first:before,
+        &--last:before {
+            content: '\e800';
+        }
+
+        &--prev:before,
+        &--first:before {
             transform: rotateY(180deg);
         }
 
-        &--prev:hover:before {
+        &--prev:hover:before,
+        &--first:hover:before {
             transform: translateX(-2px) rotateY(180deg);
         }
 
-        &--next:hover:before {
+        &--next:hover:before,
+        &--last:hover:before {
             transform: translateX(2px);
         }
 
@@ -68,17 +81,22 @@
             cursor: default;
         }
 
-        &--prev[disabled]:hover:before {
+        &--prev[disabled]:hover:before,
+        &--first[disabled]:hover:before {
             transform: translateX(0) rotateY(180deg);
         }
 
-        &--next[disabled]:hover:before {
+        &--next[disabled]:hover:before,
+        &--last[disabled]:hover:before {
             transform: translateX(0);
         }
     }
+    &__item {
+        margin: 0 0.5rem;
+    }
 
     &__location {
-        margin: 0 1rem;
+        margin: 0 0.5rem;
 
         text-align: center;
     }
