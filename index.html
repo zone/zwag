@@ -94,11 +94,17 @@
                     <nav aria-label="Pagination">
                         <ul class="pagination" data-ng-show="totalItems">
                             <li>
+                                <button type="button" class="pagination__button pagination__button--first" data-ng-disabled="currentPage == 1" data-ng-click="currentPage=1">First page</button>
+                            </li>
+                            <li class="pagination__item">
                                 <button type="button" class="pagination__button pagination__button--prev" data-ng-disabled="currentPage == 1" data-ng-click="currentPage=currentPage-1">Previous</button>
                             </li>
                             <li class="pagination__location">Page {{currentPage}} of {{noOfPages}}<br><span class="pagination__matches">{{totalItems}} matching {{ totalItems == 1 ? 'item' : 'items' }}</span></li>
-                            <li>
+                            <li class="pagination__item"> 
                                 <button type="button" class="pagination__button pagination__button--next" data-ng-disabled="currentPage >= noOfPages" data-ng-click="currentPage = currentPage+1">Next</button>
+                            </li>
+                            <li>
+                                <button type="button" class="pagination__button pagination__button--last" data-ng-disabled="currentPage >= noOfPages" data-ng-click="currentPage = noOfPages"></button>
                             </li>
                         </ul>
                     </nav>
