@@ -3,7 +3,7 @@
 <!--[if IE 9]><html lang="en" data-ng-app="accessibilityApp" class="ie-9"><![endif]-->
 <!--[if gt IE 9]><!--><html lang="en" data-ng-app="accessibilityApp"><!--<![endif]-->
     <head>
-        <meta charset="utf-8"> 
+        <meta charset="utf-8">
         <title>Zone Web Accessibility Guidelines</title>
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" type="text/css">
         <link rel="stylesheet" href="dist/styles/app.css" type="text/css">
@@ -100,7 +100,7 @@
                                 <button type="button" class="pagination__button pagination__button--prev" data-ng-disabled="currentPage == 1" data-ng-click="currentPage=currentPage-1">Previous</button>
                             </li>
                             <li class="pagination__location">Page {{currentPage}} of {{noOfPages}}<br><span class="pagination__matches">{{totalItems}} matching {{ totalItems == 1 ? 'item' : 'items' }}</span></li>
-                            <li class="pagination__item"> 
+                            <li class="pagination__item">
                                 <button type="button" class="pagination__button pagination__button--next" data-ng-disabled="currentPage >= noOfPages" data-ng-click="currentPage = currentPage+1">Next</button>
                             </li>
                             <li>
@@ -112,9 +112,9 @@
                     <div class="results" aria-live="polite">
                         <article class="criteria" data-ng-repeat="item in filteredEntries = (entries | filter:search | filter:search.level:true) | startFrom:(currentPage-1)*entryLimit | limitTo:entryLimit">
                             <h2 class="criteria__description" data-ng-bind-html="item.criteria | highlight:search.criteria">{{item.criteria}}</h2>
-                            
+
                             <div data-ng-show="item.refs.length">
-                                Spec Ref: 
+                                Spec Ref:
                                 <ul class="criteria__refs">
                                     <li data-ng-repeat="ref in item.refs" data-ng-switch="ref.url" class="criteria__ref">
                                         <a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/Overview.html" data-ng-click="visit($event, ref.url)" data-ng-switch-default target="_blank">{{ref.number}}</a><span data-ng-switch-when="">{{ref.number}}</span>
@@ -163,11 +163,11 @@
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-         
-          ga('create', 'UA-10879457-10', 'auto');
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-10879457-11', 'auto');
           ga('send', 'pageview');
-         
+
         </script>
     </body>
 </html>
