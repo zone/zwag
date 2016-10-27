@@ -779,7 +779,31 @@
       "number":"1.2.3",
       "url":"http://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-audio-desc.html"
     }],
-    "criteria":"Audio description or text alternatives are entire, missing no visual information evident in the video. ",
+    "criteria":"Audio description or text alternatives are entire, missing no visual information evident in the video.",
+    "tags":"Non-text content, non-text, images, media, audio, video",
+    "departments":["Front-end","Editorial"],
+    "url":""
+  },
+  {
+    "level":"AA",
+    "levels":["A","AA","AAA"],
+    "refs":[{
+      "number":"1.2.4",
+      "url":"https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-real-time-captions.html"
+    }],
+    "criteria":"Captions are provided for all live audio content in synchronised media.",
+    "tags":"Non-text content, non-text, images, media, audio, video",
+    "departments":["Front-end","Editorial"],
+    "url":""
+  },
+  {
+    "level":"AA",
+    "levels":["A","AA","AAA"],
+    "refs":[{
+      "number":"1.2.5",
+      "url":"https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-audio-desc-only.html"
+    }],
+    "criteria":"Audio description is provided for all prerecorded video content in synchronised media.",
     "tags":"Non-text content, non-text, images, media, audio, video",
     "departments":["Front-end","Editorial"],
     "url":""
