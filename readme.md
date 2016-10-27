@@ -12,6 +12,10 @@ You'll need Node/NPM installed.
 
 Run `npm i -g gulp && npm i` - This will install gulp globally and all required packages.
 
+If you already have Gulp istalled globally simply Run
+
+`npm i`
+
 ## Development
 
 Run `gulp`. This will start the server, build processes and watch files for changes.
